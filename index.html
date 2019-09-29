@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Output</title>
+</head>
+
+<body style="background-color: black; margin: 50px">
+    <div id="showText" style="font-size: 50px; color: red; text-align: center">FORM GET CODE JSON FROM JSON DATA</div>
+    <br>
+    <br>
+    <div id="formToast">
+        <p style="text-align: center">MORE INFOMATION FOR CODE</p>
+        <div>
+            <button type="submit" id="btnSubmitToast">APLLY DATA INFO</button>
+        </div>
+
+
+
+
+    </div>
+    <p style="font-size: 30px; color: blue">PASTE JSON DATA INTO TEXTAREA</p>
+
+    <textarea name="inputData" id="inputData" rows="25"
+        style="color: white; background-color: rgb(61, 56, 56); margin-left: 10px; width: 900px; display: block"></textarea>
+    <button type="submit" id="btnSubmit"
+        style="margin: 25px; padding: 25px; display: inline ;color: rgb(35, 226, 178) ;font-size: 20px;  border-radius: 25px; margin-left: 100px; background-color: rgb(79, 42, 165)">CLICK
+        ME TO GET CODE</button>
+    <button type="submit" id="btnRemoveCode"
+        style="margin: 25px; padding: 25px; display: inline ;color: rgb(35, 226, 178) ;font-size: 20px;  border-radius: 25px;  margin-left: 100px; background-color: brown">CLICK
+        ME TO CLEARN CODE</button>
+
+    <div id="showText" style="font-size: 30px; color: blue">OUTPUT CODE SHOW HERE!</div>
+    <br>
+
+    <p style="color: white">---------------------------------------------------- CODE FOR
+        preFilledValue----------------------------</p>
+    <br>
+    <section id="preFilledValue" style="color: brown"></section>
+    <br>
+
+    <p style="color: white">----------------------------------------------CODE FOR
+        preFilledChecked-------------------------------</p>
+    <br>
+    <section id="preFilledChecked" style="color: rgb(255, 0, 255)"></section>
+    <br>
+
+    <p style="color: white">-----------------------------------------CODE FOR
+        preFilledNotChecked-------------------------------</p>
+    <br>
+    <section id="preFilledNotChecked" style="color: rgb(98, 0, 255)"></section>
+    <br>
+
+    <p style="color: white">-----------------------------------------------------CODE FOR inputValue
+        -------------------------------</p>
+    <br>
+    <section id="inputValue" style="color: chartreuse"></section>
+    <br>
+
+    <p style="color: white">-----------------------------------------------------CODE FOR selectValue
+        -------------------------------</p>
+    <br>
+    <section id="selectValue" style="color: rgb(0, 255, 191)"></section>
+    <br>
+
+    <p style="color: white">-----------------------------------------------------CODE FOR
+        currentDate-------------------------------</p>
+    <br>
+    <section id="currentDate" style="color: rgb(255, 0, 255)"></section>
+    <br>
+
+
+
+
+
+
+    <div id="testagain" style="color: red">
+        <br>
+        <p>---------------------------------------------//////----------------------------------------------------</p>
+        <p>-----------------------INFORMATION OF EFORM CHECKED----------------------------</p>
+        <p>---------------------------------------------//////----------------------------------------------------</p>
+        <br>
+        <p>*******************************</p>
+        <p style="display: inline">NAME EFORM CHECKED:</p>
+        <div id="nameEformChecked" style="display: inline"></div>
+        <br>
+        <p style="display: inline">ID EFORM CHECKED:</p>
+        <div id="idEformChecked" style="display: inline"></div>
+        <br>
+        <p style="display: inline">TYPE PRINT CHECKED:</p>
+        <div id="typeEformChecked" style="display: inline"></div>
+        <br>
+        <p style="display: inline">TOTAL SECTIONS CHECKED:</p>
+        <div id="sections" style="display: inline"></div>
+        <br>
+        <p style="display: inline">TOTAL ROWS CHECKED:</p>
+        <div id="rows" style="display: inline"></div>
+        <br>
+        <p style="display: inline">TOTAL FIELDS CHECKED:</p>
+        <div id="fields" style="display: inline"></div>
+        <br>
+        <p style="display: inline">UNDEFINED OR NO FIELDS NAME:</p>
+        <div id="undefined_field_name" style="display: inline"></div>
+    </div>
+
+</body>
+<script src="./main.js"></script>
+
+</html>

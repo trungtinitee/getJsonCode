@@ -650,17 +650,7 @@ function getDataSourcesAndMainProgram() {
 
     //console.log("GROUP RADIO", groupRadioCheck);
     console.log("GROUP RADIO check or not", groupRadioCheckedorNot);
-
-
-
-
-
-
-
-
   }
-
-
 }
 
 function cleanTextHtml() {

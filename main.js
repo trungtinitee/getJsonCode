@@ -554,14 +554,20 @@ function getDataSourcesAndMainProgram() {
 
       for (var j = 0; j < groupRadioCheckedorNot[i].idField.length; j++) {
         var addPrefillCheckorUnCheck = document.createElement("input");
-        addPrefillCheckorUnCheck.setAttribute("type", "radio");
+        if (groupRadioCheckedorNot[i].idField.length === 1){
+          addPrefillCheckorUnCheck.setAttribute("type", "checkbox");
+        }
+        else{
+          addPrefillCheckorUnCheck.setAttribute("type", "radio");
+        }
+        addPrefillCheckorUnCheck.style.marginLeft  = "25px";
         addPrefillCheckorUnCheck.setAttribute("name", groupRadioCheckedorNot[i].nameGroup);
         addPrefillCheckorUnCheck.setAttribute("value", groupRadioCheckedorNot[i].idField[j]);
-
+        
         var createValue = document.createElement("p");
         createValue.style.display = "inline";
         createValue.innerHTML = groupRadioCheckedorNot[i].valueField[j];
-
+        
         document.getElementById("formToast").appendChild(addPrefillCheckorUnCheck);
         document.getElementById("formToast").appendChild(createValue);
 
@@ -574,7 +580,7 @@ function getDataSourcesAndMainProgram() {
 
       for (var i = 0; i < groupRadioCheckedorNot.length; i++) {
         var arrayRadioChecked = document.getElementsByName(groupRadioCheckedorNot[i].nameGroup);
-
+        
         var j = groupRadioCheckedorNot[i].valueField.length;
         var step = 0;
         while (step < j) {
@@ -626,6 +632,7 @@ function getDataSourcesAndMainProgram() {
         }
       }
       document.getElementById("formToast").style.display = "none";
+      document.getElementById("showFinal").style.display = "block";
     }
     document.getElementById("btnSubmitToast").addEventListener("click", closeFormToast);
 
@@ -677,10 +684,11 @@ function cleanTextHtml() {
     document.getElementById("typeEformChecked").innerHTML = "";
     document.getElementById("undefined_field_name").innerHTML = "";
     document.getElementById("inputData").value = "";
-    document.getElementById("formToast").innerHTML = "<p style=\"text-align: center\">MORE INFOMATION FOR CODE</p>";
+    document.getElementById("formToast").innerHTML = "<p style=\"text-align: center; color: red; font-size: 25\"><u>MORE INFOMATION FOR CODE</u></p>";
     var btnAplly = document.createElement("div");
     btnAplly.innerHTML = "<button type=\"submit\" id=\"btnSubmitToast\">APLLY DATA INFO</button>";
     document.getElementById("formToast").appendChild(btnAplly);
+    document.getElementById("showFinal").style.display = "none";
   }
 }
 

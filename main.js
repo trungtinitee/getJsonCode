@@ -1,1 +1,1062 @@
-var _0xbc0f=["\x76\x61\x6C\x75\x65","\x69\x6E\x70\x75\x74\x44\x61\x74\x61","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x70\x61\x72\x73\x65","\x45\x46\x6F\x72\x6D\x54\x65\x6D\x70\x6C\x61\x74\x65\x44\x61\x74\x61","","\x20\x41\x42\x43\x44\x45\x46\x47\x48\x49\x4A\x4B\x4C\x4D\x20\x4E\x4F\x50\x51\x52\x53\x54\x55\x56\x57\x58\x59\x5A\x61\x62\x63\x64\x65\x66\x67\x68\x20\x69\x6A\x6B\x6C\x6D\x6E\x6F\x70\x71\x72\x73\x74\x75\x76\x20\x77\x78\x79\x7A\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x20","\x6C\x65\x6E\x67\x74\x68","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x63\x68\x61\x72\x41\x74","\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39","\x67\x65\x74\x54\x69\x6D\x65","\x67\x65\x74\x4D\x6F\x6E\x74\x68","\x67\x65\x74\x44\x61\x74\x65","\x67\x65\x74\x46\x75\x6C\x6C\x59\x65\x61\x72","\x30","\x2F","\x6A\x6F\x69\x6E","\x6E\x61\x6D\x65","\x66\x69\x65\x6C\x64\x73","\x72\x6F\x77\x73","\x73\x65\x63\x74\x69\x6F\x6E\x73","\x70","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x72\x65\x66","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64\x5F\x66\x69\x65\x6C\x64\x5F\x6E\x61\x6D\x65","\x55\x49\x44","\x65\x66\x6F\x72\x6D\x5F\x69\x6E\x70\x75\x74\x5F\x63\x68\x65\x63\x6B\x5F\x6C\x61\x62\x65\x6C","\x65\x66\x6F\x72\x6D\x5F\x69\x6E\x70\x75\x74\x5F\x74\x65\x78\x74","\x65\x66\x6F\x72\x6D\x5F\x69\x6E\x70\x75\x74\x5F\x64\x61\x74\x65","\x65\x66\x6F\x72\x6D\x5F\x69\x6E\x70\x75\x74\x5F\x74\x65\x78\x74\x61\x72\x65\x61","\x65\x66\x6F\x72\x6D\x5F\x69\x6E\x70\x75\x74\x5F\x63\x68\x65\x63\x6B\x5F\x72\x61\x64\x69\x6F","\x65\x66\x6F\x72\x6D\x5F\x69\x6E\x70\x75\x74\x5F\x63\x68\x65\x63\x6B\x5F\x63\x68\x65\x63\x6B\x62\x6F\x78","\x65\x66\x6F\x72\x6D\x5F\x69\x6E\x70\x75\x74\x5F\x73\x69\x67\x6E\x61\x74\x75\x72\x65","\x65\x66\x6F\x72\x6D\x5F\x69\x6E\x70\x75\x74\x5F\x69\x6D\x61\x67\x65\x5F\x64\x6F\x63\x74\x6F\x72","\x74\x79\x70\x65","\x70\x72\x65\x43\x61\x6C","\x6D\x61\x78\x6C\x65\x6E\x67\x74\x68","\x69\x73\x4E\x75\x6D\x62\x65\x72","\x64\x69\x76","\x7B","\x69\x6E\x70\x75\x74\x56\x61\x6C\x75\x65","\x22\x66\x69\x65\x6C\x64\x4E\x61\x6D\x65\x22\x3A\x20","\x22","\x22\x2C","\x22\x49\x44\x22\x3A\x20","\x22\x69\x6E\x70\x75\x74\x56\x61\x6C\x75\x65\x22\x3A\x20","\x22\x65\x78\x70\x65\x63\x74\x65\x64\x56\x61\x6C\x75\x65\x22\x3A\x20","\x7D\x2C","\x70\x72\x65\x46\x69\x6C\x6C\x65\x64\x56\x61\x6C\x75\x65","\x44\x45\x46\x41\x55\x4C\x54\x28\x54\x4F\x44\x41\x59\x53\x48\x4F\x52\x54\x29","\x63\x75\x72\x72\x65\x6E\x74\x44\x61\x74\x65","\x6E\x61\x6D\x65\x47\x72\x6F\x75\x70","\x70\x75\x73\x68","\x69\x64\x46\x69\x65\x6C\x64","\x76\x61\x6C\x75\x65\x46\x69\x65\x6C\x64","\x63\x61\x6E\x64\x69\x64\x61\x74\x65\x53\x69\x67\x6E\x61\x74\x75\x72\x65","\x72\x65\x6C\x6F\x61\x64\x44\x6F\x63\x74\x6F\x72\x53\x69\x67\x6E\x61\x74\x75\x72\x65","\x5F\x62\x75\x74\x74\x6F\x6E\x5F\x72\x65\x6C\x6F\x61\x64","\x69\x73\x52\x65\x6C\x6F\x61\x64\x65\x64\x44\x6F\x63\x74\x6F\x72\x53\x69\x67\x6E\x61\x74\x75\x72\x65","\x73\x65\x6C\x65\x63\x74\x56\x61\x6C\x75\x65","\x66\x6F\x72\x6D\x54\x6F\x61\x73\x74","\x69\x6E\x70\x75\x74","\x63\x68\x65\x63\x6B\x62\x6F\x78","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x72\x61\x64\x69\x6F","\x6D\x61\x72\x67\x69\x6E\x4C\x65\x66\x74","\x73\x74\x79\x6C\x65","\x32\x35\x70\x78","\x64\x69\x73\x70\x6C\x61\x79","\x69\x6E\x6C\x69\x6E\x65","\x62\x6C\x6F\x63\x6B","\x73\x68\x6F\x77\x46\x69\x6E\x61\x6C","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x4E\x61\x6D\x65","\x63\x68\x65\x63\x6B\x65\x64","\x70\x72\x65\x46\x69\x6C\x6C\x65\x64\x43\x68\x65\x63\x6B\x65\x64","\x70\x72\x65\x46\x69\x6C\x6C\x65\x64\x4E\x6F\x74\x43\x68\x65\x63\x6B\x65\x64","\x6E\x6F\x6E\x65","\x63\x6C\x69\x63\x6B","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x62\x74\x6E\x53\x75\x62\x6D\x69\x74\x54\x6F\x61\x73\x74","\x50\x72\x69\x6E\x74\x45\x66\x6F\x72\x6D","\x70\x72\x69\x6E\x74\x42\x75\x74\x74\x6F\x6E\x5F","\x5F\x62\x6F\x74\x74\x6F\x6D","\x70\x72\x69\x6E\x74\x45\x66\x6F\x72\x6D","\x3D\x3E\x20","\x3C\x62\x72\x3E","\x6E\x61\x6D\x65\x45\x66\x6F\x72\x6D\x43\x68\x65\x63\x6B\x65\x64","\x65\x66\x6F\x72\x6D\x4E\x61\x6D\x65","\x69\x64\x45\x66\x6F\x72\x6D\x43\x68\x65\x63\x6B\x65\x64","\x69\x64\x46\x6F\x72\x6D","\x74\x79\x70\x65\x45\x66\x6F\x72\x6D\x43\x68\x65\x63\x6B\x65\x64","\x50\x72\x69\x6E\x74\x54\x79\x70\x65","\x69\x6E\x6E\x65\x72\x54\x65\x78\x74","\x6E\x6F\x74\x20\x66\x6F\x75\x6E\x64","\x44\x41\x54\x41\x20\x53\x4F\x55\x52\x43\x45\x53","\x6C\x6F\x67","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x3F","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x68\x61\x73\x43\x68\x69\x6C\x64\x4E\x6F\x64\x65\x73","\x3C\x70\x20\x73\x74\x79\x6C\x65\x3D\x22\x74\x65\x78\x74\x2D\x61\x6C\x69\x67\x6E\x3A\x20\x63\x65\x6E\x74\x65\x72\x3B\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x72\x65\x64\x3B\x20\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x32\x35\x22\x3E\x3C\x75\x3E\x4D\x4F\x52\x45\x20\x49\x4E\x46\x4F\x4D\x41\x54\x49\x4F\x4E\x20\x46\x4F\x52\x20\x43\x4F\x44\x45\x3C\x2F\x75\x3E\x3C\x2F\x70\x3E","\x3C\x62\x75\x74\x74\x6F\x6E\x20\x74\x79\x70\x65\x3D\x22\x73\x75\x62\x6D\x69\x74\x22\x20\x69\x64\x3D\x22\x62\x74\x6E\x53\x75\x62\x6D\x69\x74\x54\x6F\x61\x73\x74\x22\x3E\x41\x50\x4C\x4C\x59\x20\x44\x41\x54\x41\x20\x49\x4E\x46\x4F\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E","\x62\x74\x6E\x53\x75\x62\x6D\x69\x74","\x62\x74\x6E\x52\x65\x6D\x6F\x76\x65\x43\x6F\x64\x65"];function getDataSourcesAndMainProgram(){var _0x35b6x2=document[_0xbc0f[2]](_0xbc0f[1])[_0xbc0f[0]];var _0x35b6x3=JSON[_0xbc0f[3]](_0x35b6x2);var _0x35b6x4=JSON[_0xbc0f[3]](_0x35b6x3[_0xbc0f[4]].TemplateData);{function _0x35b6x5(_0x35b6x6){var _0x35b6x7=_0xbc0f[5];var _0x35b6x8=_0xbc0f[6];var _0x35b6x9=_0x35b6x8[_0xbc0f[7]];for(var _0x35b6xa=0;_0x35b6xa< _0x35b6x6;_0x35b6xa++){_0x35b6x7+= _0x35b6x8[_0xbc0f[10]](Math[_0xbc0f[9]](Math[_0xbc0f[8]]()* _0x35b6x9))};return _0x35b6x7}function _0x35b6xb(_0x35b6x6){var _0x35b6x7=_0xbc0f[5];var _0x35b6x8=_0xbc0f[11];var _0x35b6x9=_0x35b6x8[_0xbc0f[7]];for(var _0x35b6xa=0;_0x35b6xa< _0x35b6x6;_0x35b6xa++){_0x35b6x7+= _0x35b6x8[_0xbc0f[10]](Math[_0xbc0f[9]](Math[_0xbc0f[8]]()* _0x35b6x9))};return _0x35b6x7}function _0x35b6xc(_0x35b6xd,_0x35b6xe){var _0x35b6xf= new Date(_0x35b6xd[_0xbc0f[12]]()+ Math[_0xbc0f[8]]()* (_0x35b6xe[_0xbc0f[12]]()- _0x35b6xd[_0xbc0f[12]]())),_0x35b6x10=_0xbc0f[5]+ (_0x35b6xf[_0xbc0f[13]]()+ 1),_0x35b6x11=_0xbc0f[5]+ _0x35b6xf[_0xbc0f[14]](),_0x35b6x12=_0x35b6xf[_0xbc0f[15]]();if(_0x35b6x10[_0xbc0f[7]]< 2){_0x35b6x10= _0xbc0f[16]+ _0x35b6x10};if(_0x35b6x11[_0xbc0f[7]]< 2){_0x35b6x11= _0xbc0f[16]+ _0x35b6x11};return [_0x35b6x11,_0x35b6x10,_0x35b6x12][_0xbc0f[18]](_0xbc0f[17])}function _0x35b6x13(_0x35b6x14,_0x35b6x15,_0x35b6x16){var _0x35b6x17=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];{if(_0x35b6x17=== undefined|| _0x35b6x17=== _0xbc0f[5]){var _0x35b6x18=document[_0xbc0f[24]](_0xbc0f[23]);_0x35b6x18[_0xbc0f[25]]= _0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];document[_0xbc0f[2]](_0xbc0f[28])[_0xbc0f[27]](_0x35b6x18)}}}var _0x35b6x19=_0x35b6x4[_0xbc0f[22]][_0xbc0f[7]]- 1;var _0x35b6x1a=true;var _0x35b6x1b=true;var _0x35b6x1c=true;var _0x35b6x1d=0;var _0x35b6x1e=0;var _0x35b6x1f=[];var _0x35b6x20=[];var _0x35b6x21=false;var _0x35b6x22=_0x35b6x3[_0xbc0f[29]];var _0x35b6x14=0;var _0x35b6x15=0;var _0x35b6x16=0;var _0x35b6x23=0;var _0x35b6x24=0;var _0x35b6x25=0;var _0x35b6x26=_0xbc0f[30];var _0x35b6x27=_0xbc0f[31];var _0x35b6x28=_0xbc0f[32];var _0x35b6x29=_0xbc0f[33];var _0x35b6x2a=_0xbc0f[34];var _0x35b6x2b=_0xbc0f[35];var _0x35b6x2c=_0xbc0f[36];var _0x35b6x2d=_0xbc0f[37];if(_0x35b6x19!=  -1){while(_0x35b6x1a){var _0x35b6x2e=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0xbc0f[7]]- 1;_0x35b6x1b= true;_0x35b6x15= 0;_0x35b6x23+= 1;if(_0x35b6x2e!=  -1){while(_0x35b6x1b){var _0x35b6x2f=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0xbc0f[7]]- 1;_0x35b6x1c= true;_0x35b6x16= 0;_0x35b6x24+= 1;if(_0x35b6x2f!=  -1){while(_0x35b6x1c){_0x35b6x25+= 1;var _0x35b6x30=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[38]];var _0x35b6x31=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[39]];var _0x35b6x32=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[40]];if(_0x35b6x30=== _0x35b6x27){_0x35b6x13(_0x35b6x14,_0x35b6x15,_0x35b6x16);if(_0x35b6x31=== undefined|| _0x35b6x31=== _0xbc0f[5]){var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x35;if(_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[41]]=== true){_0x35b6x35= _0x35b6xb(13)}else {_0x35b6x35= _0x35b6x5(15)};var _0x35b6x36=_0x35b6x35;var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x39=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3a=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x38);_0x35b6x39[_0xbc0f[25]]= _0xbc0f[49]+ _0xbc0f[46]+ _0x35b6x35+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x39);_0x35b6x3a[_0xbc0f[25]]= _0xbc0f[50]+ _0xbc0f[46]+ _0x35b6x36+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x3a);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x3c)}else {var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x36=_0x35b6x31;var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3a=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3a[_0xbc0f[25]]= _0xbc0f[50]+ _0xbc0f[46]+ _0x35b6x36+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x3a);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x3c)}};if(_0x35b6x30=== _0x35b6x28){_0x35b6x13(_0x35b6x14,_0x35b6x15,_0x35b6x16);if(_0x35b6x31=== undefined|| _0x35b6x31=== _0xbc0f[5]){var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x35=_0x35b6xc( new Date(2012,0,1), new Date());var _0x35b6x36=_0x35b6x35;var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x39=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3a=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x38);_0x35b6x39[_0xbc0f[25]]= _0xbc0f[49]+ _0xbc0f[46]+ _0x35b6x35+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x39);_0x35b6x3a[_0xbc0f[25]]= _0xbc0f[50]+ _0xbc0f[46]+ _0x35b6x36+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x3a);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x3c)}else {var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x36=_0x35b6x31;if(_0x35b6x31=== _0xbc0f[53]){var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[54])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[54])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[54])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[54])[_0xbc0f[27]](_0x35b6x3c)}else {var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3a=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3a[_0xbc0f[25]]= _0xbc0f[50]+ _0xbc0f[46]+ _0x35b6x36+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x3a);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x3c)}}};if(_0x35b6x30=== _0x35b6x29){_0x35b6x13(_0x35b6x14,_0x35b6x15,_0x35b6x16);if(_0x35b6x31=== undefined|| _0x35b6x31=== _0xbc0f[5]){var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x35;var _0x35b6x3d=255;var _0x35b6x3e=800;var _0x35b6x3f=Math[_0xbc0f[9]](Math[_0xbc0f[8]]()* (_0x35b6x3e- _0x35b6x3d+ 1))+ _0x35b6x3d;if(_0x35b6x32=== undefined){_0x35b6x32=  -1};_0x35b6x32= Number(_0x35b6x32);if(_0x35b6x32=== 0){_0x35b6x35= _0x35b6x5(_0x35b6x3f)};if(_0x35b6x32> 0){_0x35b6x35= _0x35b6x5(_0x35b6x32)};if(_0x35b6x32===  -1){_0x35b6x35= _0x35b6x5(_0x35b6x3f)};var _0x35b6x36=_0x35b6x35;var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x39=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3a=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x38);_0x35b6x39[_0xbc0f[25]]= _0xbc0f[49]+ _0xbc0f[46]+ _0x35b6x35+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x39);_0x35b6x3a[_0xbc0f[25]]= _0xbc0f[50]+ _0xbc0f[46]+ _0x35b6x36+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x3a);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[44])[_0xbc0f[27]](_0x35b6x3c)}else {var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x36=_0x35b6x31;var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3a=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3a[_0xbc0f[25]]= _0xbc0f[50]+ _0xbc0f[46]+ _0x35b6x36+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x3a);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[52])[_0xbc0f[27]](_0x35b6x3c)}};if(_0x35b6x30=== _0x35b6x2a|| _0x35b6x30=== _0x35b6x2b){_0x35b6x13(_0x35b6x14,_0x35b6x15,_0x35b6x16);if(_0x35b6x31=== undefined|| _0x35b6x31=== _0xbc0f[5]){var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x40={nameGroup:_0xbc0f[5],idField:[]};if(_0x35b6x1d=== 0){_0x35b6x1f[_0x35b6x1d]= _0x35b6x40;_0x35b6x1f[_0x35b6x1d][_0xbc0f[55]]= _0x35b6x33;_0x35b6x1f[_0x35b6x1d][_0xbc0f[57]][_0xbc0f[56]](_0x35b6x34);_0x35b6x1d+= 1}else {var _0x35b6x41=true;for(var _0x35b6xa=0;_0x35b6xa< _0x35b6x1d;_0x35b6xa++){if(_0x35b6x1f[_0x35b6xa][_0xbc0f[55]]=== _0x35b6x33){_0x35b6x1f[_0x35b6xa][_0xbc0f[57]][_0xbc0f[56]](_0x35b6x34);_0x35b6x41= false}};if(_0x35b6x41){_0x35b6x1f[_0x35b6x1d]= _0x35b6x40;_0x35b6x1f[_0x35b6x1d][_0xbc0f[55]]= _0x35b6x33;_0x35b6x1f[_0x35b6x1d][_0xbc0f[57]][_0xbc0f[56]](_0x35b6x34);_0x35b6x1d+= 1}}}else {_0x35b6x21= true;var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x42=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[0]];var _0x35b6x40={nameGroup:_0xbc0f[5],idField:[],valueField:[]};if(_0x35b6x1e=== 0){_0x35b6x20[_0x35b6x1e]= _0x35b6x40;_0x35b6x20[_0x35b6x1e][_0xbc0f[55]]= _0x35b6x33;_0x35b6x20[_0x35b6x1e][_0xbc0f[57]][_0xbc0f[56]](_0x35b6x34);_0x35b6x20[_0x35b6x1e][_0xbc0f[58]][_0xbc0f[56]](_0x35b6x42);_0x35b6x1e+= 1}else {var _0x35b6x41=true;for(var _0x35b6xa=0;_0x35b6xa< _0x35b6x1e;_0x35b6xa++){if(_0x35b6x20[_0x35b6xa][_0xbc0f[55]]=== _0x35b6x33){_0x35b6x20[_0x35b6xa][_0xbc0f[57]][_0xbc0f[56]](_0x35b6x34);_0x35b6x20[_0x35b6xa][_0xbc0f[58]][_0xbc0f[56]](_0x35b6x42);_0x35b6x41= false}};if(_0x35b6x41){_0x35b6x20[_0x35b6x1e]= _0x35b6x40;_0x35b6x20[_0x35b6x1e][_0xbc0f[55]]= _0x35b6x33;_0x35b6x20[_0x35b6x1e][_0xbc0f[57]][_0xbc0f[56]](_0x35b6x34);_0x35b6x20[_0x35b6x1e][_0xbc0f[58]][_0xbc0f[56]](_0x35b6x42);_0x35b6x1e+= 1}}}};{if(_0x35b6x30=== _0x35b6x2c){var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[59])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[59])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[59])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[59])[_0xbc0f[27]](_0x35b6x3c)};if(_0x35b6x30=== _0x35b6x2d){var _0x35b6x33=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[19]];var _0x35b6x34=_0x35b6x4[_0xbc0f[22]][_0x35b6x14][_0xbc0f[21]][_0x35b6x15][_0xbc0f[20]][_0x35b6x16][_0xbc0f[26]];var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[60])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[60])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[61]+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[60])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[60])[_0xbc0f[27]](_0x35b6x3c);var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[62])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[62])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[62])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[62])[_0xbc0f[27]](_0x35b6x3c)}}_0x35b6x16+= 1;if(_0x35b6x16> _0x35b6x2f){_0x35b6x1c= false}}};_0x35b6x15+= 1;if(_0x35b6x15> _0x35b6x2e){_0x35b6x1b= false}}};_0x35b6x14+= 1;if(_0x35b6x14> _0x35b6x19){_0x35b6x1a= false}}};for(var _0x35b6xa=0;_0x35b6xa< _0x35b6x1f[_0xbc0f[7]];_0x35b6xa++){var _0x35b6x43=_0x35b6x1f[_0x35b6xa][_0xbc0f[57]][_0xbc0f[7]];var _0x35b6x44;if(_0x35b6x43=== 1){var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[63])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x1f[_0x35b6xa][_0xbc0f[55]]+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[63])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x1f[_0x35b6xa][_0xbc0f[57]][0]+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[63])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[63])[_0xbc0f[27]](_0x35b6x3c)}else {var _0x35b6x3d=1;var _0x35b6x3e=_0x35b6x43;var _0x35b6x3f=Math[_0xbc0f[9]](Math[_0xbc0f[8]]()* (_0x35b6x3e- _0x35b6x3d+ 1))+ _0x35b6x3d;var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[63])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x1f[_0x35b6xa][_0xbc0f[55]]+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[63])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x1f[_0x35b6xa][_0xbc0f[57]][_0x35b6x3f- 1]+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[63])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[63])[_0xbc0f[27]](_0x35b6x3c)}};for(var _0x35b6xa=0;_0x35b6xa< _0x35b6x20[_0xbc0f[7]];_0x35b6xa++){var _0x35b6x45=document[_0xbc0f[24]](_0xbc0f[23]);_0x35b6x45[_0xbc0f[25]]= _0x35b6x20[_0x35b6xa][_0xbc0f[55]];document[_0xbc0f[2]](_0xbc0f[64])[_0xbc0f[27]](_0x35b6x45);for(var _0x35b6x46=0;_0x35b6x46< _0x35b6x20[_0x35b6xa][_0xbc0f[57]][_0xbc0f[7]];_0x35b6x46++){var _0x35b6x47=document[_0xbc0f[24]](_0xbc0f[65]);if(_0x35b6x20[_0x35b6xa][_0xbc0f[57]][_0xbc0f[7]]=== 1){_0x35b6x47[_0xbc0f[67]](_0xbc0f[38],_0xbc0f[66])}else {_0x35b6x47[_0xbc0f[67]](_0xbc0f[38],_0xbc0f[68])};_0x35b6x47[_0xbc0f[70]][_0xbc0f[69]]= _0xbc0f[71];_0x35b6x47[_0xbc0f[67]](_0xbc0f[19],_0x35b6x20[_0x35b6xa][_0xbc0f[55]]);_0x35b6x47[_0xbc0f[67]](_0xbc0f[0],_0x35b6x20[_0x35b6xa][_0xbc0f[57]][_0x35b6x46]);var _0x35b6x48=document[_0xbc0f[24]](_0xbc0f[23]);_0x35b6x48[_0xbc0f[70]][_0xbc0f[72]]= _0xbc0f[73];_0x35b6x48[_0xbc0f[25]]= _0x35b6x20[_0x35b6xa][_0xbc0f[58]][_0x35b6x46];document[_0xbc0f[2]](_0xbc0f[64])[_0xbc0f[27]](_0x35b6x47);document[_0xbc0f[2]](_0xbc0f[64])[_0xbc0f[27]](_0x35b6x48)}};if(_0x35b6x21){document[_0xbc0f[2]](_0xbc0f[64])[_0xbc0f[70]][_0xbc0f[72]]= _0xbc0f[74]}else {document[_0xbc0f[2]](_0xbc0f[75])[_0xbc0f[70]][_0xbc0f[72]]= _0xbc0f[74]};function _0x35b6x49(){for(var _0x35b6xa=0;_0x35b6xa< _0x35b6x20[_0xbc0f[7]];_0x35b6xa++){var _0x35b6x4a=document[_0xbc0f[76]](_0x35b6x20[_0x35b6xa][_0xbc0f[55]]);var _0x35b6x46=_0x35b6x20[_0x35b6xa][_0xbc0f[58]][_0xbc0f[7]];var _0x35b6x4b=0;while(_0x35b6x4b< _0x35b6x46){if(_0x35b6x4a[_0x35b6x4b][_0xbc0f[77]]=== true){var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[78])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x20[_0x35b6xa][_0xbc0f[55]]+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[78])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x4a[_0x35b6x4b][_0xbc0f[0]]+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[78])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[78])[_0xbc0f[27]](_0x35b6x3c)}else {var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[79])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x20[_0x35b6xa][_0xbc0f[55]]+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[79])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x4a[_0x35b6x4b][_0xbc0f[0]]+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[79])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[79])[_0xbc0f[27]](_0x35b6x3c)};_0x35b6x4b+= 1}};document[_0xbc0f[2]](_0xbc0f[64])[_0xbc0f[70]][_0xbc0f[72]]= _0xbc0f[80];document[_0xbc0f[2]](_0xbc0f[75])[_0xbc0f[70]][_0xbc0f[72]]= _0xbc0f[74]}document[_0xbc0f[2]](_0xbc0f[83])[_0xbc0f[82]](_0xbc0f[81],_0x35b6x49);{var _0x35b6x33=_0xbc0f[84];var _0x35b6x34=_0xbc0f[85]+ _0x35b6x22+ _0xbc0f[86];var _0x35b6x37=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x38=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3b=document[_0xbc0f[24]](_0xbc0f[42]);var _0x35b6x3c=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x3b[_0xbc0f[25]]= _0xbc0f[43];document[_0xbc0f[2]](_0xbc0f[87])[_0xbc0f[27]](_0x35b6x3b);_0x35b6x37[_0xbc0f[25]]= _0xbc0f[45]+ _0xbc0f[46]+ _0x35b6x33+ _0xbc0f[47];document[_0xbc0f[2]](_0xbc0f[87])[_0xbc0f[27]](_0x35b6x37);_0x35b6x38[_0xbc0f[25]]= _0xbc0f[48]+ _0xbc0f[46]+ _0x35b6x34+ _0xbc0f[46];document[_0xbc0f[2]](_0xbc0f[87])[_0xbc0f[27]](_0x35b6x38);_0x35b6x3c[_0xbc0f[25]]= _0xbc0f[51];document[_0xbc0f[2]](_0xbc0f[87])[_0xbc0f[27]](_0x35b6x3c)}document[_0xbc0f[2]](_0xbc0f[22])[_0xbc0f[25]]= _0xbc0f[88]+ _0x35b6x23+ _0xbc0f[89];document[_0xbc0f[2]](_0xbc0f[21])[_0xbc0f[25]]= _0xbc0f[88]+ _0x35b6x24+ _0xbc0f[89];document[_0xbc0f[2]](_0xbc0f[20])[_0xbc0f[25]]= _0xbc0f[88]+ _0x35b6x25+ _0xbc0f[89];document[_0xbc0f[2]](_0xbc0f[90])[_0xbc0f[25]]= _0xbc0f[88]+ _0x35b6x4[_0xbc0f[91]]+ _0xbc0f[89];document[_0xbc0f[2]](_0xbc0f[92])[_0xbc0f[25]]= _0xbc0f[88]+ _0x35b6x4[_0xbc0f[93]]+ _0xbc0f[89];document[_0xbc0f[2]](_0xbc0f[94])[_0xbc0f[25]]= _0xbc0f[88]+ _0x35b6x4[_0xbc0f[95]]+ _0xbc0f[89];if(document[_0xbc0f[2]](_0xbc0f[28])[_0xbc0f[96]]=== _0xbc0f[5]){document[_0xbc0f[2]](_0xbc0f[28])[_0xbc0f[25]]= _0xbc0f[88]+ _0xbc0f[97]+ _0xbc0f[89]};console[_0xbc0f[99]](_0xbc0f[98],_0x35b6x4)}}function cleanTextHtml(){var _0x35b6x4d=confirm(_0xbc0f[100]);if(_0x35b6x4d){function _0x35b6x4e(_0x35b6x4f){var _0x35b6x50=document[_0xbc0f[2]](_0x35b6x4f);while(_0x35b6x50[_0xbc0f[103]]()){_0x35b6x50[_0xbc0f[102]](_0x35b6x50[_0xbc0f[101]])}}_0x35b6x4e(_0xbc0f[52]);_0x35b6x4e(_0xbc0f[78]);_0x35b6x4e(_0xbc0f[79]);_0x35b6x4e(_0xbc0f[44]);_0x35b6x4e(_0xbc0f[63]);_0x35b6x4e(_0xbc0f[54]);_0x35b6x4e(_0xbc0f[64]);_0x35b6x4e(_0xbc0f[59]);_0x35b6x4e(_0xbc0f[60]);_0x35b6x4e(_0xbc0f[62]);_0x35b6x4e(_0xbc0f[87]);document[_0xbc0f[2]](_0xbc0f[22])[_0xbc0f[25]]= _0xbc0f[5];document[_0xbc0f[2]](_0xbc0f[21])[_0xbc0f[25]]= _0xbc0f[5];document[_0xbc0f[2]](_0xbc0f[20])[_0xbc0f[25]]= _0xbc0f[5];document[_0xbc0f[2]](_0xbc0f[90])[_0xbc0f[25]]= _0xbc0f[5];document[_0xbc0f[2]](_0xbc0f[92])[_0xbc0f[25]]= _0xbc0f[5];document[_0xbc0f[2]](_0xbc0f[94])[_0xbc0f[25]]= _0xbc0f[5];document[_0xbc0f[2]](_0xbc0f[28])[_0xbc0f[25]]= _0xbc0f[5];document[_0xbc0f[2]](_0xbc0f[1])[_0xbc0f[0]]= _0xbc0f[5];document[_0xbc0f[2]](_0xbc0f[64])[_0xbc0f[25]]= _0xbc0f[104];var _0x35b6x51=document[_0xbc0f[24]](_0xbc0f[42]);_0x35b6x51[_0xbc0f[25]]= _0xbc0f[105];document[_0xbc0f[2]](_0xbc0f[64])[_0xbc0f[27]](_0x35b6x51);document[_0xbc0f[2]](_0xbc0f[75])[_0xbc0f[70]][_0xbc0f[72]]= _0xbc0f[80]}}document[_0xbc0f[2]](_0xbc0f[106])[_0xbc0f[82]](_0xbc0f[81],getDataSourcesAndMainProgram);document[_0xbc0f[2]](_0xbc0f[107])[_0xbc0f[82]](_0xbc0f[81],cleanTextHtml)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////=======================CODE BY TRUNG TIN==============================/////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+function getDataSourcesAndMainProgram() {
+  var jsonSources = document.getElementById("inputData").value;
+  var jsonPatient = document.getElementById("inputDataPatient").value;
+  var jsonObjectBillings = document.getElementById("inputDataBilling").value;
+
+  var parseEFormTemplateData = JSON.parse(jsonSources);
+  var jsonObject = JSON.parse(parseEFormTemplateData.EFormTemplateData.TemplateData);
+  var jsonObjectPatinet = JSON.parse(jsonPatient);
+  var jsonObjectBillings = JSON.parse(jsonObjectBillings);
+
+
+  {
+    //  FUNCTION COPY ON INTERNET
+    //=========================================================================================================
+    function makeid(length) {
+      var result = '';
+      var characters = ' ABCDEFGHIJKLM NOPQRSTUVWXYZabcdefgh ijklmnopqrstuv wxyz0123456789 ';
+      var charactersLength = characters.length;
+      for (var i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+      }
+      return result;
+    }
+
+    function makeidonlyno(length) {
+      var result = '';
+      var characters = '0123456789';
+      var charactersLength = characters.length;
+      for (var i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+      }
+      return result;
+    }
+
+    //------------ RANDOM DATE----------------------------
+    function randomDate(start, end) {
+      var d = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime())),
+        month = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        year = d.getFullYear();
+      if (month.length < 2) month = '0' + month;
+      if (day.length < 2) day = '0' + day;
+      return [day, month, year].join('/');
+    }
+    //--------------------------------------------------------------------------------------------------------------------------
+    //MY FUNCTION
+    //=========================================================================================================
+
+    //-------------------------------- CHECK ERROR FIELD NAME------------------------------------------------
+
+    function checkErrorUndefined(indexSections, indexRows, indexFields) {
+      var checkFieldNameUndefined = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+      {
+
+        if (checkFieldNameUndefined === undefined || checkFieldNameUndefined === "") {
+          var errorFieldName = document.createElement("p");
+          errorFieldName.innerHTML = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+          document.getElementById("undefined_field_name").appendChild(errorFieldName);
+
+        }
+      }
+    }
+
+
+    //================================ GET AND REIVICE PATIENT PROFILE =====================================
+    function searchPatientProfile(func) {
+
+      var dataFunction = {
+        "dir": [
+          jsonObjectPatinet.patient.surname,
+          jsonObjectPatinet.patient.firstName,
+          jsonObjectPatinet.patient.firstName + " " + jsonObjectPatinet.patient.surname,
+          jsonObjectPatinet.contact.address,
+          jsonObjectPatinet.contact.suburb,
+          jsonObjectPatinet.contact.state,
+          jsonObjectPatinet.contact.postcode,
+          jsonObjectPatinet.contact.phoneHome,
+          jsonObjectPatinet.contact.phoneMobile,
+          jsonObjectPatinet.contact.phoneWork,
+          jsonObjectPatinet.patient.dob,
+          jsonObjectPatinet.patient.gender, // number 1 or 2
+          jsonObjectPatinet.patient.title, // return 1,2,3,4,5,6
+          "",
+          jsonObjectPatinet.companies[0].companyName,//newest to fill??????
+          jsonObjectPatinet.patient.occupation,
+          jsonObjectBillings.medicareNumber,
+          jsonObjectPatinet.contact.email,
+          jsonObjectBillings.medicareExp,
+          jsonObjectBillings.medicareRefNumber,
+          jsonObjectBillings.dvaNumber,
+          jsonObjectBillings.billingTypeId,
+          jsonObjectBillings.dvaDisability,
+          jsonObjectBillings.medicareRefNumber,
+          jsonObjectBillings.privateHealthFundRefNumber,
+          jsonObjectBillings.pensionNumber,
+          jsonObjectBillings.pensionExp,
+          jsonObjectPatinet.companies.companySiteName,
+          jsonObjectPatinet.patient.raceId,
+          
+
+        ],
+        "name": [
+          //Appointment
+          "CONCAT(PatientAppointment.LastName)",
+          "CONCAT(PatientAppointment.FirstName)",
+          "CONCAT(PatientAppointment.FirstName,PatientAppointment.LastName)",
+          "CONCAT(PatientAppointment.Address1,PatientAppointment.Address2)",
+          "CONCAT(PatientAppointment.Suburb)",
+          "CONCAT(PatientAppointment.State)",
+          "CONCAT(PatientAppointment.Postcode)",
+          "CONCAT(PatientAppointment.HomePhoneNumber)",
+          "CONCAT(PatientAppointment.PhoneNumber)",
+          "CONCAT(PatientAppointment.WorkPhoneNumber)",
+          "CONCAT(PatientAppointment.DOB)",
+          "CONCAT(PatientAppointment.Gender)",
+          "CONCAT(PatientAppointment.Title)",
+          "AGE(PatientAppointment.DOB)",
+          "CONCAT(Company.CompanyName)",
+          "CONCAT(PatientAppointment.Occupation)",
+          "CONCAT(PatientAppointment.MedicareNumber)",
+          "CONCAT(PatientAppointment.Email1)",
+          "CONCAT(PatientAppointment.MedicareExpiryDate)",
+          "CONCAT(PatientAppointment.MedicareReferenceNumber)",
+          //"CONCAT(PatientAppointment.ReferringDoctor)",
+          //"CONCAT(PatientAppointment.PrivateHealth)",
+          //"CONCAT(PatientAppointment.PensionDetail)",
+          "CONCAT(PatientAppointment.DVANumber",
+          //"PatientAppointment.DVACardColour)", prefillRadio
+          "CONCAT(PatientAppointment.AccountType)",
+          "CONCAT(PatientAppointment.DVADisability)",
+          "CONCAT(PatientAppointment.MembershipNumber)",
+          "CONCAT(PatientAppointment.PHFRefNo)",
+          "CONCAT(PatientAppointment.PensionNumber)",
+          "CONCAT(PatientAppointment.PensionExpiryDate)",
+          //"CONCAT(PatientAppointment.MemberNo)",
+          //"CONCAT(PatientAppointment.HCCPensionNumber)",
+          "CONCAT(CompanySite.ContactName)",
+          "CONCAT(PatientAppointment.RaceEthnicityId)",
+          
+          
+          
+          
+          //Doctor
+          "CONCAT(Doctor.Doctor.FirstName",
+          "Doctor.Doctor.LastName)",
+          "CONCAT(Doctor.Doctor.Address1)",
+          "CONCAT(Doctor.Doctor.Email)",
+          "CONCAT(Doctor.Doctor.WorkPhoneNumber)",
+          "CONCAT(Doctor.Doctor.FaxNumber)",
+          "CONCAT(Doctor.ProviderNumber)",
+
+        ]
+      }
+      var seen = false;
+      for (var i = 0; i < dataFunction.dir.length; i++) {
+        if (dataFunction.name[i] === func) {
+          var haveCase = false;
+          seen = true;
+          // case gender function
+          if (dataFunction.name[i] === "CONCAT(PatientAppointment.Gender)") {
+            haveCase = true;
+            if (dataFunction.dir[i] === 1) {
+              return "Male";
+            }
+            else return "Female";
+          }
+          // case date format
+          if (dataFunction.name[i] === "CONCAT(PatientAppointment.DOB)" || dataFunction.name[i] === "CONCAT(PatientAppointment.PensionExpiryDate)") {
+            var year = dataFunction.dir[i].substr(0, 4);
+            var month = dataFunction.dir[i].substr(5, 2);
+            var day = dataFunction.dir[i].substr(8, 2);
+            haveCase = true;
+            return day + "/" + month + "/" + year;
+          }
+          //case mm/yyyy format
+          if (dataFunction.name[i] === "CONCAT(PatientAppointment.MedicareExpiryDate)") {
+            var year = dataFunction.dir[i].substr(0, 4);
+            var month = dataFunction.dir[i].substr(5, 2);
+            //var day = dataFunction.dir[i].substr(8, 2);
+
+            haveCase = true;
+            return month + "/" + year;
+          }
+          //case Age patient
+          if (dataFunction.name[i] === "AGE(PatientAppointment.DOB)") {
+            haveCase = true;
+            var year = new Date();
+            var age = year.getFullYear() - Number(dataFunction.dir[10].substr(0, 4));
+            return age;
+          }
+          //case title
+          if (dataFunction.name[i] === "CONCAT(PatientAppointment.Title)") {
+            haveCase = true;
+            switch (dataFunction.dir[i]) {
+              case 1:
+                return "Mr";
+              case 2:
+                return "Mrs";
+              case 3:
+                return "Ms";
+              case 4:
+                return "Miss";
+              case 5:
+                return "Master";
+              case 6:
+                return "Dr";
+              default: return undefined;
+            }
+          }
+          //case account type
+          if (dataFunction.name[i] === "CONCAT(PatientAppointment.AccountType)") {
+            haveCase = true;
+            switch (dataFunction.dir[i]) {
+              case 1:
+                return "WorkCover";
+              case 2:
+                return "PEM";
+              case 3:
+                return "Private";
+              case 4:
+                return "Public";
+              case 5:
+                return "Public Pensioner";
+              case 6:
+                return "DVA - White";
+              case 7:
+                return "DVA - Gold";
+              case 8:
+                return "Overseas";
+              case 9:
+                return "Bulk Bill";
+              default: return undefined;
+            }
+          }
+          //case raceID
+          if (dataFunction.name[i] === "CONCAT(PatientAppointment.RaceEthnicityId)") {
+            haveCase = true;            
+            switch (dataFunction.dir[i]) {
+              case 1:
+                return "Non-Aboriginal";
+              case 2:
+                return "Aboriginal";
+              case 3:
+                return "Torres Strait Islander";
+              case 4:
+                return "Aboriginal and Torres Strait Islander";              
+              default: return undefined;
+            }
+          }
+          // default
+          if (haveCase === false) {
+
+            return dataFunction.dir[i];
+          }
+        }
+      }
+      if (seen === false) {
+        return func;
+      }
+
+    }
+   
+
+
+
+
+
+
+
+
+
+
+    //----------------------------------------------------------------------------------------------------------------------------
+    //var get from Json Object
+    var sectionsNumber = jsonObject.sections.length - 1;
+
+    //var begin
+    var checkSections = true;
+    var checkRows = true;
+    var checkFields = true;
+
+    var grownLoopRadioCheck = 0;
+    var grownLoopRadioCheckedorNot = 0;
+
+    var checkHaveToast = false;
+    var idPrintForm = parseEFormTemplateData.UID;
+
+    // array
+    var groupRadioCheck = [];
+    var groupRadioCheckedorNot = [];
+    var groupTextboxHaveFunction = [];
+
+
+    var indexSections = 0;
+    var indexRows = 0;
+    var indexFields = 0;
+
+    // count sections, rows, fields
+    var countSections = 0;
+    var countRows = 0;
+    var countFields = 0;
+
+    //default var
+    var lable = "eform_input_check_label"; //ignore
+    var inputText = "eform_input_text";
+    var inputDatetime = "eform_input_date";
+    var inputArea = "eform_input_textarea";
+    var inputCheckRadio = "eform_input_check_radio";
+    var inputCheckBox = "eform_input_check_checkbox";
+    var candidateSignature = "eform_input_signature";
+    var doctorImageSignature = "eform_input_image_doctor";
+
+    // -----------loop for section ---------------------------------------------------------------------------------
+    if (sectionsNumber != -1) {
+
+      while (checkSections) {
+
+        // get rows number from json data
+        var rowsNumber = jsonObject.sections[indexSections].rows.length - 1;
+        checkRows = true;
+        indexRows = 0;
+        countSections += 1;
+
+        // ------------- loop for rows -------------------------------------------------------------------------       
+        if (rowsNumber != -1) {
+
+          while (checkRows) {
+
+            //get fields number from json data
+            var fieldsNumber = jsonObject.sections[indexSections].rows[indexRows].fields.length - 1;
+            checkFields = true;
+            indexFields = 0;
+            countRows += 1;
+
+            // ----------------------------loop for fields ---------------------------------------------------
+            if (fieldsNumber != -1) {
+
+              while (checkFields) {
+
+                //---------- main code bellow-----------
+                countFields += 1;
+                var getTypeField = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].type;
+                var askRecal = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].preCal;
+                var checkMaxLength = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].maxlength;
+
+                //-------------------------------- CHECK UNDEFINED FOR FIELDS NAME---------------------------------------
+
+
+                //--------------------------------DATA TYPE TEXT BOX---------------------------------------------------------------------------
+                if (getTypeField === inputText) {
+                  //---------------------------------------------------------------------------------------------------------------------------------------------                           
+                  //---------- when it is inputValue-----------------------
+                  checkErrorUndefined(indexSections, indexRows, indexFields);
+                  if (askRecal === undefined || askRecal === "") {
+
+                    // create string
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                    var inputValue;
+                    //check is number???
+                    if (jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].isNumber === true) {
+                      inputValue = makeidonlyno(13);
+                    }
+                    else {
+                      inputValue = makeid(15);
+                    }
+                    var expectedValue = inputValue;
+
+                    //--------------- PRINT DATA INTO HTML ----------------------
+
+                    var createNodeDiv1 = document.createElement("div");
+                    var createNodeDiv2 = document.createElement("div");
+                    var createNodeDiv3 = document.createElement("div");
+                    var createNodeDiv4 = document.createElement("div");
+                    var createNodeDivOpen = document.createElement("div");
+                    var createNodeDivClose = document.createElement("div");
+
+                    createNodeDivOpen.innerHTML = "{";
+                    document.getElementById("inputValue").appendChild(createNodeDivOpen);
+
+                    createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                    document.getElementById("inputValue").appendChild(createNodeDiv1);
+
+                    createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\",";
+                    document.getElementById("inputValue").appendChild(createNodeDiv2);
+
+                    createNodeDiv3.innerHTML = "\"inputValue\": " + "\"" + inputValue + "\",";
+                    document.getElementById("inputValue").appendChild(createNodeDiv3);
+
+                    createNodeDiv4.innerHTML = "\"expectedValue\": " + "\"" + expectedValue + "\"";
+                    document.getElementById("inputValue").appendChild(createNodeDiv4);
+
+                    createNodeDivClose.innerHTML = "},";
+                    document.getElementById("inputValue").appendChild(createNodeDivClose);
+                    //--------------- PRINT DATA INTO HTML ----------------------
+                  }
+
+                  //-----------when it is a preFillValue ---------------------------------
+                  else {
+
+                    // create string
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                    var expectedValue = searchPatientProfile(askRecal);
+                    //--------------- PRINT DATA INTO HTML ----------------------
+
+                    var createNodeDiv1 = document.createElement("div");
+                    var createNodeDiv2 = document.createElement("div");
+                    var createNodeDiv4 = document.createElement("div");
+                    var createNodeDivOpen = document.createElement("div");
+                    var createNodeDivClose = document.createElement("div");
+
+                    createNodeDivOpen.innerHTML = "{";
+                    document.getElementById("preFilledValue").appendChild(createNodeDivOpen);
+
+                    createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                    document.getElementById("preFilledValue").appendChild(createNodeDiv1);
+
+                    createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\",";
+                    document.getElementById("preFilledValue").appendChild(createNodeDiv2);
+
+                    createNodeDiv4.innerHTML = "\"expectedValue\": " + "\"" + expectedValue + "\"";
+                    document.getElementById("preFilledValue").appendChild(createNodeDiv4);
+
+                    createNodeDivClose.innerHTML = "},";
+                    document.getElementById("preFilledValue").appendChild(createNodeDivClose);
+                    //--------------- PRINT DATA INTO HTML ----------------------    
+                  }
+
+                }
+
+
+                //-------------------------------------DATA TYPE DATE TIME --------------------------------------------------
+                if (getTypeField === inputDatetime) {
+
+                  checkErrorUndefined(indexSections, indexRows, indexFields);
+                  //---------- when it is inputValue--------------------- ------------------
+                  if (askRecal === undefined || askRecal === "") {
+                    // create string
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                    var inputValue = randomDate(new Date(2012, 0, 1), new Date());
+                    var expectedValue = inputValue;
+
+                    //--------------- PRINT DATA INTO HTML ----------------------
+
+                    var createNodeDiv1 = document.createElement("div");
+                    var createNodeDiv2 = document.createElement("div");
+                    var createNodeDiv3 = document.createElement("div");
+                    var createNodeDiv4 = document.createElement("div");
+                    var createNodeDivOpen = document.createElement("div");
+                    var createNodeDivClose = document.createElement("div");
+
+                    createNodeDivOpen.innerHTML = "{";
+                    document.getElementById("inputValue").appendChild(createNodeDivOpen);
+
+                    createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                    document.getElementById("inputValue").appendChild(createNodeDiv1);
+
+                    createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\",";
+                    document.getElementById("inputValue").appendChild(createNodeDiv2);
+
+                    createNodeDiv3.innerHTML = "\"inputValue\": " + "\"" + inputValue + "\",";
+                    document.getElementById("inputValue").appendChild(createNodeDiv3);
+
+                    createNodeDiv4.innerHTML = "\"expectedValue\": " + "\"" + expectedValue + "\"";
+                    document.getElementById("inputValue").appendChild(createNodeDiv4);
+
+                    createNodeDivClose.innerHTML = "},";
+                    document.getElementById("inputValue").appendChild(createNodeDivClose);
+                    //--------------- PRINT DATA INTO HTML ----------------------
+                  }
+
+                  //---------------------------- preFillValue--------------------
+                  else {
+
+                    // create string
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                    var expectedValue = searchPatientProfile(askRecal);
+
+                    //========== check askPrecall is Todayshort??================
+                    if (askRecal === "DEFAULT(TODAYSHORT)") {
+                      //--------------- PRINT DATA INTO HTML ----------------------
+
+                      var createNodeDiv1 = document.createElement("div");
+                      var createNodeDiv2 = document.createElement("div");
+                      var createNodeDivOpen = document.createElement("div");
+                      var createNodeDivClose = document.createElement("div");
+
+                      createNodeDivOpen.innerHTML = "{";
+                      document.getElementById("currentDate").appendChild(createNodeDivOpen);
+
+                      createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                      document.getElementById("currentDate").appendChild(createNodeDiv1);
+
+                      createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\"";
+                      document.getElementById("currentDate").appendChild(createNodeDiv2);
+
+                      createNodeDivClose.innerHTML = "},";
+                      document.getElementById("currentDate").appendChild(createNodeDivClose);
+                      //--------------- PRINT DATA INTO HTML ----------------------  
+                    }
+                    else {
+                      //--------------- PRINT DATA INTO HTML ----------------------
+
+                      var createNodeDiv1 = document.createElement("div");
+                      var createNodeDiv2 = document.createElement("div");
+                      var createNodeDiv4 = document.createElement("div");
+                      var createNodeDivOpen = document.createElement("div");
+                      var createNodeDivClose = document.createElement("div");
+
+                      createNodeDivOpen.innerHTML = "{";
+                      document.getElementById("preFilledValue").appendChild(createNodeDivOpen);
+
+                      createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                      document.getElementById("preFilledValue").appendChild(createNodeDiv1);
+
+                      createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\",";
+                      document.getElementById("preFilledValue").appendChild(createNodeDiv2);
+
+                      createNodeDiv4.innerHTML = "\"expectedValue\": " + "\"" + expectedValue + "\"";
+                      document.getElementById("preFilledValue").appendChild(createNodeDiv4);
+
+                      createNodeDivClose.innerHTML = "},";
+                      document.getElementById("preFilledValue").appendChild(createNodeDivClose);
+                      //--------------- PRINT DATA INTO HTML ----------------------   
+                    }
+                  }
+                }
+
+                //------------------------------------DATA TYPE TEXTAREA---------------------------------------------------
+
+                if (getTypeField === inputArea) {
+
+                  checkErrorUndefined(indexSections, indexRows, indexFields);
+                  //--------------------------------------------------------------------------------------------------------------------------------------------                           
+                  //---------- when it is inputValue----------------------------- ------------------
+
+                  if (askRecal === undefined || askRecal === "") {
+
+                    // create string
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                    var inputValue;
+                    var min = 255;
+                    var max = 800; /////// change code
+                    var random = Math.floor(Math.random() * (max - min + 1)) + min;
+
+                    if (checkMaxLength === undefined) {
+                      checkMaxLength = -1;
+                    }
+                    checkMaxLength = Number(checkMaxLength);
+
+                    //check max lenght
+                    if (checkMaxLength === 0) {
+                      inputValue = makeid(random);
+                    }
+                    if (checkMaxLength > 0) {
+                      inputValue = makeid(checkMaxLength);
+                    }
+                    if (checkMaxLength === -1) {
+                      inputValue = makeid(random);
+                    }
+
+                    var expectedValue = inputValue;
+
+                    //--------------- PRINT DATA INTO HTML ----------------------
+
+                    var createNodeDiv1 = document.createElement("div");
+                    var createNodeDiv2 = document.createElement("div");
+                    var createNodeDiv3 = document.createElement("div");
+                    var createNodeDiv4 = document.createElement("div");
+                    var createNodeDivOpen = document.createElement("div");
+                    var createNodeDivClose = document.createElement("div");
+
+                    createNodeDivOpen.innerHTML = "{";
+                    document.getElementById("inputValue").appendChild(createNodeDivOpen);
+
+                    createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                    document.getElementById("inputValue").appendChild(createNodeDiv1);
+
+                    createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\",";
+                    document.getElementById("inputValue").appendChild(createNodeDiv2);
+
+                    createNodeDiv3.innerHTML = "\"inputValue\": " + "\"" + inputValue + "\",";
+                    document.getElementById("inputValue").appendChild(createNodeDiv3);
+
+                    createNodeDiv4.innerHTML = "\"expectedValue\": " + "\"" + expectedValue + "\"";
+                    document.getElementById("inputValue").appendChild(createNodeDiv4);
+
+                    createNodeDivClose.innerHTML = "},";
+                    document.getElementById("inputValue").appendChild(createNodeDivClose);
+                    //--------------- PRINT DATA INTO HTML ---------------------- 
+
+                  }
+
+
+                  // -------------- when it is a reFillVallue------------------------------
+                  else {
+                    // create string
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                    var expectedValue = askRecal;
+
+                    //--------------- PRINT DATA INTO HTML ----------------------
+
+                    var createNodeDiv1 = document.createElement("div");
+                    var createNodeDiv2 = document.createElement("div");
+                    var createNodeDiv4 = document.createElement("div");
+                    var createNodeDivOpen = document.createElement("div");
+                    var createNodeDivClose = document.createElement("div");
+
+                    createNodeDivOpen.innerHTML = "{";
+                    document.getElementById("preFilledValue").appendChild(createNodeDivOpen);
+
+                    createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                    document.getElementById("preFilledValue").appendChild(createNodeDiv1);
+
+                    createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\",";
+                    document.getElementById("preFilledValue").appendChild(createNodeDiv2);
+
+                    createNodeDiv4.innerHTML = "\"expectedValue\": " + "\"" + expectedValue + "\"";
+                    document.getElementById("preFilledValue").appendChild(createNodeDiv4);
+
+                    createNodeDivClose.innerHTML = "},";
+                    document.getElementById("preFilledValue").appendChild(createNodeDivClose);
+                    //--------------- PRINT DATA INTO HTML ---------------------- 
+
+                  }
+                }
+
+                //----------------------------------- DATA TYPE RADIO AND CHECK BOX----------------------------------------
+
+                if (getTypeField === inputCheckRadio || getTypeField === inputCheckBox) {
+
+                  checkErrorUndefined(indexSections, indexRows, indexFields);
+
+                  if (askRecal === undefined || askRecal === "") {
+
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                    var saveRadioCheckBoxGroup = {
+                      nameGroup: "",
+                      idField: [],
+                    };
+
+                    if (grownLoopRadioCheck === 0) {
+                      groupRadioCheck[grownLoopRadioCheck] = saveRadioCheckBoxGroup;
+                      groupRadioCheck[grownLoopRadioCheck].nameGroup = fieldName;
+                      groupRadioCheck[grownLoopRadioCheck].idField.push(ID);
+                      grownLoopRadioCheck += 1;
+                    }
+
+                    else {
+                      var checkHaveSameName = true;
+                      for (var i = 0; i < grownLoopRadioCheck; i++) {
+
+                        if (groupRadioCheck[i].nameGroup === fieldName) {
+                          groupRadioCheck[i].idField.push(ID);
+                          checkHaveSameName = false;
+                        }
+                      }
+                      if (checkHaveSameName) {
+                        groupRadioCheck[grownLoopRadioCheck] = saveRadioCheckBoxGroup;
+                        groupRadioCheck[grownLoopRadioCheck].nameGroup = fieldName;
+                        groupRadioCheck[grownLoopRadioCheck].idField.push(ID);
+                        grownLoopRadioCheck += 1;
+                      }
+
+                    }
+                  }
+
+                  //-------------- when it is a preFilledChecked---------------------------
+                  else {
+                    // create string
+                    checkHaveToast = true;
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                    var valueField = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].value;
+                    var saveRadioCheckBoxGroup = {
+                      nameGroup: "",
+                      idField: [],
+                      valueField: []
+                    };
+
+                    if (grownLoopRadioCheckedorNot === 0) {
+                      groupRadioCheckedorNot[grownLoopRadioCheckedorNot] = saveRadioCheckBoxGroup;
+                      groupRadioCheckedorNot[grownLoopRadioCheckedorNot].nameGroup = fieldName;
+                      groupRadioCheckedorNot[grownLoopRadioCheckedorNot].idField.push(ID);
+                      groupRadioCheckedorNot[grownLoopRadioCheckedorNot].valueField.push(valueField);
+                      grownLoopRadioCheckedorNot += 1;
+                    }
+
+                    else {
+                      var checkHaveSameName = true;
+                      for (var i = 0; i < grownLoopRadioCheckedorNot; i++) {
+
+                        if (groupRadioCheckedorNot[i].nameGroup === fieldName) {
+                          groupRadioCheckedorNot[i].idField.push(ID);
+                          groupRadioCheckedorNot[i].valueField.push(valueField);
+                          checkHaveSameName = false;
+                        }
+                      }
+                      if (checkHaveSameName) {
+                        groupRadioCheckedorNot[grownLoopRadioCheckedorNot] = saveRadioCheckBoxGroup;
+                        groupRadioCheckedorNot[grownLoopRadioCheckedorNot].nameGroup = fieldName;
+                        groupRadioCheckedorNot[grownLoopRadioCheckedorNot].idField.push(ID);
+                        groupRadioCheckedorNot[grownLoopRadioCheckedorNot].valueField.push(valueField);
+                        grownLoopRadioCheckedorNot += 1;
+                      }
+                    }
+                  }
+                }
+
+                //------------------------------------ DATA TYPE SIGNATURE -----------------------------------------------------------------
+                {
+                  //-----------------------------------candidateSignature-----------------------------------------------
+
+                  if (getTypeField === candidateSignature) {
+                    // create string
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                    //--------------- PRINT DATA INTO HTML ----------------------
+
+                    var createNodeDiv1 = document.createElement("div");
+                    var createNodeDiv2 = document.createElement("div");
+                    var createNodeDivOpen = document.createElement("div");
+                    var createNodeDivClose = document.createElement("div");
+
+                    createNodeDivOpen.innerHTML = "{";
+                    document.getElementById("candidateSignature").appendChild(createNodeDivOpen);
+
+                    createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                    document.getElementById("candidateSignature").appendChild(createNodeDiv1);
+
+                    createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\"";
+                    document.getElementById("candidateSignature").appendChild(createNodeDiv2);
+
+                    createNodeDivClose.innerHTML = "},";
+                    document.getElementById("candidateSignature").appendChild(createNodeDivClose);
+                    //--------------- PRINT DATA INTO HTML ----------------------
+                  }
+                  //--------------------------------- doctor Image Signature----------------------------------
+                  if (getTypeField === doctorImageSignature) {
+
+                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+
+                    //============================reloadDoctorSignature================================
+                    var createNodeDiv1 = document.createElement("div");
+                    var createNodeDiv2 = document.createElement("div");
+                    var createNodeDivOpen = document.createElement("div");
+                    var createNodeDivClose = document.createElement("div");
+
+                    createNodeDivOpen.innerHTML = "{";
+                    document.getElementById("reloadDoctorSignature").appendChild(createNodeDivOpen);
+
+                    createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                    document.getElementById("reloadDoctorSignature").appendChild(createNodeDiv1);
+
+                    createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "_button_reload" + "\"";
+                    document.getElementById("reloadDoctorSignature").appendChild(createNodeDiv2);
+
+                    createNodeDivClose.innerHTML = "},";
+                    document.getElementById("reloadDoctorSignature").appendChild(createNodeDivClose);
+
+                    //=============================== isReloadedDoctorSignature==============================
+                    var createNodeDiv1 = document.createElement("div");
+                    var createNodeDiv2 = document.createElement("div");
+                    var createNodeDivOpen = document.createElement("div");
+                    var createNodeDivClose = document.createElement("div");
+
+                    createNodeDivOpen.innerHTML = "{";
+                    document.getElementById("isReloadedDoctorSignature").appendChild(createNodeDivOpen);
+
+                    createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                    document.getElementById("isReloadedDoctorSignature").appendChild(createNodeDiv1);
+
+                    createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\"";
+                    document.getElementById("isReloadedDoctorSignature").appendChild(createNodeDiv2);
+
+                    createNodeDivClose.innerHTML = "},";
+                    document.getElementById("isReloadedDoctorSignature").appendChild(createNodeDivClose);
+                  }
+                }
+                //--------------------------------------------------------------------------------------------------------------------
+                indexFields += 1;
+                if (indexFields > fieldsNumber) {
+                  checkFields = false;
+                }
+              }
+            }
+
+            indexRows += 1;
+            if (indexRows > rowsNumber) {
+              checkRows = false;
+            }
+          }
+        }
+
+        indexSections += 1;
+        if (indexSections > sectionsNumber) {
+          checkSections = false;
+        }
+      }
+    }
+
+    //===============================================================================================================
+
+
+
+
+
+    //--------------------------------- RANDOM SELECT VALUE --------------------------------
+
+
+    for (var i = 0; i < groupRadioCheck.length; i++) {
+      var totalFieldsCheckRadio = groupRadioCheck[i].idField.length;
+      var randomFieldCheckRadio;
+      if (totalFieldsCheckRadio === 1) {
+
+        var createNodeDiv1 = document.createElement("div");
+        var createNodeDiv2 = document.createElement("div");
+        var createNodeDivOpen = document.createElement("div");
+        var createNodeDivClose = document.createElement("div");
+
+        createNodeDivOpen.innerHTML = "{";
+        document.getElementById("selectValue").appendChild(createNodeDivOpen);
+
+        createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + groupRadioCheck[i].nameGroup + "\",";
+        document.getElementById("selectValue").appendChild(createNodeDiv1);
+
+        createNodeDiv2.innerHTML = "\"ID\": " + "\"" + groupRadioCheck[i].idField[0] + "\"";
+        document.getElementById("selectValue").appendChild(createNodeDiv2);
+
+        createNodeDivClose.innerHTML = "},";
+        document.getElementById("selectValue").appendChild(createNodeDivClose);
+      }
+      else {
+        //-------------- random number between max min -------------------------------------
+        var min = 1;
+        var max = totalFieldsCheckRadio;
+        var random = Math.floor(Math.random() * (max - min + 1)) + min;
+
+        var createNodeDiv1 = document.createElement("div");
+        var createNodeDiv2 = document.createElement("div");
+        var createNodeDivOpen = document.createElement("div");
+        var createNodeDivClose = document.createElement("div");
+
+        createNodeDivOpen.innerHTML = "{";
+        document.getElementById("selectValue").appendChild(createNodeDivOpen);
+
+        createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + groupRadioCheck[i].nameGroup + "\",";
+        document.getElementById("selectValue").appendChild(createNodeDiv1);
+
+        createNodeDiv2.innerHTML = "\"ID\": " + "\"" + groupRadioCheck[i].idField[random - 1] + "\"";
+        document.getElementById("selectValue").appendChild(createNodeDiv2);
+
+        createNodeDivClose.innerHTML = "},";
+        document.getElementById("selectValue").appendChild(createNodeDivClose);
+
+      }
+
+    }
+
+    //====================== GET RADIO OR CHECK IS CHECKED OR NOT===============================
+
+
+
+    for (var i = 0; i < groupRadioCheckedorNot.length; i++) {
+      var createName = document.createElement("p");
+      createName.innerHTML = groupRadioCheckedorNot[i].nameGroup;
+      document.getElementById("formToast").appendChild(createName);
+
+      for (var j = 0; j < groupRadioCheckedorNot[i].idField.length; j++) {
+        var addPrefillCheckorUnCheck = document.createElement("input");
+        if (groupRadioCheckedorNot[i].idField.length === 1) {
+          addPrefillCheckorUnCheck.setAttribute("type", "checkbox");
+        }
+        else {
+          addPrefillCheckorUnCheck.setAttribute("type", "radio");
+        }
+        addPrefillCheckorUnCheck.style.marginLeft = "25px";
+        addPrefillCheckorUnCheck.setAttribute("name", groupRadioCheckedorNot[i].nameGroup);
+        addPrefillCheckorUnCheck.setAttribute("value", groupRadioCheckedorNot[i].idField[j]);
+
+        var createValue = document.createElement("p");
+        createValue.style.display = "inline";
+        createValue.innerHTML = groupRadioCheckedorNot[i].valueField[j];
+
+        document.getElementById("formToast").appendChild(addPrefillCheckorUnCheck);
+        document.getElementById("formToast").appendChild(createValue);
+
+      }
+    }
+    if (checkHaveToast) {
+      document.getElementById("formToast").style.display = "block";
+    }
+    else {
+      document.getElementById("showFinal").style.display = "block";
+    }
+
+
+    function closeFormToast() {
+
+      for (var i = 0; i < groupRadioCheckedorNot.length; i++) {
+        var arrayRadioChecked = document.getElementsByName(groupRadioCheckedorNot[i].nameGroup);
+
+        var j = groupRadioCheckedorNot[i].valueField.length;
+        var step = 0;
+        while (step < j) {
+          if (arrayRadioChecked[step].checked === true) {
+            //--------------- PRINT DATA INTO HTML ----------------------
+
+            var createNodeDiv1 = document.createElement("div");
+            var createNodeDiv2 = document.createElement("div");
+            var createNodeDivOpen = document.createElement("div");
+            var createNodeDivClose = document.createElement("div");
+
+            createNodeDivOpen.innerHTML = "{";
+            document.getElementById("preFilledChecked").appendChild(createNodeDivOpen);
+
+            createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + groupRadioCheckedorNot[i].nameGroup + "\",";
+            document.getElementById("preFilledChecked").appendChild(createNodeDiv1);
+
+            createNodeDiv2.innerHTML = "\"ID\": " + "\"" + arrayRadioChecked[step].value + "\"";
+            document.getElementById("preFilledChecked").appendChild(createNodeDiv2);
+
+            createNodeDivClose.innerHTML = "},";
+            document.getElementById("preFilledChecked").appendChild(createNodeDivClose);
+            //--------------- PRINT DATA INTO HTML ---------------------- 
+
+          }
+          else {
+            //--------------- PRINT DATA INTO HTML ----------------------
+
+            var createNodeDiv1 = document.createElement("div");
+            var createNodeDiv2 = document.createElement("div");
+            var createNodeDivOpen = document.createElement("div");
+            var createNodeDivClose = document.createElement("div");
+
+            createNodeDivOpen.innerHTML = "{";
+            document.getElementById("preFilledNotChecked").appendChild(createNodeDivOpen);
+
+            createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + groupRadioCheckedorNot[i].nameGroup + "\",";
+            document.getElementById("preFilledNotChecked").appendChild(createNodeDiv1);
+
+            createNodeDiv2.innerHTML = "\"ID\": " + "\"" + arrayRadioChecked[step].value + "\"";
+            document.getElementById("preFilledNotChecked").appendChild(createNodeDiv2);
+
+            createNodeDivClose.innerHTML = "},";
+            document.getElementById("preFilledNotChecked").appendChild(createNodeDivClose);
+            //--------------- PRINT DATA INTO HTML ---------------------- 
+
+          }
+          step += 1;
+        }
+      }
+      document.getElementById("formToast").style.display = "none";
+      document.getElementById("showFinal").style.display = "block";
+    }
+    document.getElementById("btnSubmitToast").addEventListener("click", closeFormToast);
+    //------------------------------------------------------------------------------------
+
+    //======================== GET ID FOR PRINT BUTTOM=============================
+    {
+      var fieldName = "PrintEform"
+      var ID = "printButton_" + idPrintForm + "_bottom";
+
+      //============================Print eform================================
+      var createNodeDiv1 = document.createElement("div");
+      var createNodeDiv2 = document.createElement("div");
+      var createNodeDivOpen = document.createElement("div");
+      var createNodeDivClose = document.createElement("div");
+
+      createNodeDivOpen.innerHTML = "{";
+      document.getElementById("printEform").appendChild(createNodeDivOpen);
+
+      createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+      document.getElementById("printEform").appendChild(createNodeDiv1);
+
+      createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\"";
+      document.getElementById("printEform").appendChild(createNodeDiv2);
+
+      createNodeDivClose.innerHTML = "},";
+      document.getElementById("printEform").appendChild(createNodeDivClose);
+    }
+
+    // EXTEND CODE PRINT INTO HTML------------------------------------------
+    document.getElementById("sections").innerHTML = "=> " + countSections + "<br>";
+    document.getElementById("rows").innerHTML = "=> " + countRows + "<br>";
+    document.getElementById("fields").innerHTML = "=> " + countFields + "<br>";
+    document.getElementById("nameEformChecked").innerHTML = "=> " + jsonObject.eformName + "<br>";
+    document.getElementById("idEformChecked").innerHTML = "=> " + jsonObject.idForm + "<br>";
+    document.getElementById("typeEformChecked").innerHTML = "=> " + jsonObject.PrintType + "<br>";
+
+    //check final no field name?-----------------------------------------------------
+    if (document.getElementById("undefined_field_name").innerText === "") {
+      document.getElementById("undefined_field_name").innerHTML = "=> " + "not found" + "<br>";
+    }
+
+    console.log("DATA SOURCES", jsonObject);
+
+    //console.log("GROUP RADIO", groupRadioCheck);
+    //console.log("GROUP RADIO check or not", groupRadioCheckedorNot);
+  }
+}
+
+function cleanTextHtml() {
+  var comfirmClean = confirm("Are you sure?");
+  if (comfirmClean) {
+    function removeAllChild(namePatient) {
+      var listPatient = document.getElementById(namePatient);
+      while (listPatient.hasChildNodes()) {
+        listPatient.removeChild(listPatient.firstChild);
+      }
+    }
+
+
+    removeAllChild("preFilledValue");
+    removeAllChild("preFilledChecked");
+    removeAllChild("preFilledNotChecked");
+    removeAllChild("inputValue");
+    removeAllChild("selectValue");
+    removeAllChild("currentDate");
+    removeAllChild("formToast");
+    removeAllChild("candidateSignature");
+    removeAllChild("reloadDoctorSignature");
+    removeAllChild("isReloadedDoctorSignature");
+    removeAllChild("printEform");
+
+
+
+    document.getElementById("sections").innerHTML = "";
+    document.getElementById("rows").innerHTML = "";
+    document.getElementById("fields").innerHTML = "";
+    document.getElementById("nameEformChecked").innerHTML = "";
+    document.getElementById("idEformChecked").innerHTML = "";
+    document.getElementById("typeEformChecked").innerHTML = "";
+    document.getElementById("undefined_field_name").innerHTML = "";
+    document.getElementById("inputData").value = "";
+    document.getElementById("formToast").innerHTML = "<p style=\"text-align: center; color: red; font-size: 25\"><u>MORE INFOMATION FOR CODE</u></p>";
+    var btnAplly = document.createElement("div");
+    btnAplly.innerHTML = "<button type=\"submit\" id=\"btnSubmitToast\">APLLY DATA INFO</button>";
+    document.getElementById("formToast").appendChild(btnAplly);
+    document.getElementById("showFinal").style.display = "none";
+  }
+}
+
+
+document.getElementById("btnSubmit").addEventListener("click", getDataSourcesAndMainProgram);
+document.getElementById("btnRemoveCode").addEventListener("click", cleanTextHtml);
+
+
+

@@ -9,17 +9,21 @@ function getDataSourcesAndMainProgram() {
   var usePatient = document.getElementById("dataAutomationPatient");
   var jsonObjectPatinet;
   var jsonObjectBillings;
+  var jsonObjectDoctor;
   var parseEFormTemplateData;
   var jsonObject;
   if (usePatient.checked) {
     jsonObjectPatinet = { "patient": { "id": 43295, "uuid": "38e5af2d-ed10-454f-91dc-308dc3881305", "title": 2, "gender": 2, "raceId": 3, "firstName": "test001", "midName": null, "surname": "MINHNHUTMTP", "fullName": "", "dob": "2019-07-23T00:00:00Z", "avatar": null, "avatarRekognition": null, "occupation": "boss" }, "contact": { "id": 66564, "patientId": 43295, "email": "leminhnhutdhct@gmail.com", "phoneHome": "456", "phoneMobile": "040123", "phoneWork": "123", "address": "Tan Hanh Dai Phuc Cang Long Tra Vinh", "poBoxNo": "PO POX OR", "isSendMail": false, "suburb": "quan Cam", "postcode": "1234", "state": "TORRES STRAIT ISLANDER", "country": "Viet Nam" }, "billing": null, "companies": [{ "patientId": 43295, "companyId": 1013, "companyName": "Citic Pacific Mining", "companySiteId": 1043, "companySiteName": "Sino Iron - INJURY", "currentCompany": true }, { "patientId": 43295, "companyId": 1, "companyName": "REDIMED", "companySiteId": 1, "companySiteName": "REDiMED Belmont", "currentCompany": false }], "hasConsultation": false, "account": { "id": 0, "patientID": 0, "parentID": null, "email": "", "phoneMobile": "" }, "nextOfKin": "PatientPEM AUTOMATION", "isTest": false };
-    jsonObjectBillings = { "id": 422, "patientId": 43295, "medicareNumber": "9090", "medicareRefNumber": "1", "medicareExp": "2019-11-28T00:00:00Z", "privateHealthFundId": 1035, "privateHealthFundObject": { "key": 1035, "label": "Automation UPDATED - Private Health Fund" }, "privateHealthFundRefNumber": "101199", "membershipNumber": "ok. i dont know", "dvaNumber": "Tau anh qua nui", "dvaDisability": "DVA Disability", "cardColor": 1, "pensionNumber": "0967702162", "pensionExp": "2008-02-28T00:00:00Z", "billingTypeId": 4, "accountHolderTypeId": 3, "accountHolderRefId": 1 };
+    jsonObjectBillings = { "id": 423, "patientId": 43295, "medicareNumber": "9090", "medicareRefNumber": "1", "medicareExp": "2019-11-28T00:00:00Z", "privateHealthFundId": 1035, "privateHealthFundObject": { "key": 1035, "label": "Automation UPDATED - Private Health Fund" }, "privateHealthFundRefNumber": "101199", "membershipNumber": "ok. i dont know", "dvaNumber": "001113", "dvaDisability": "DVA Disability", "cardColor": 1, "pensionNumber": "0967702162", "pensionExp": "2008-02-28T00:00:00Z", "billingTypeId": 4, "accountHolderTypeId": 3, "accountHolderRefId": 1 };
+    jsonObjectDoctor = { "staff": { "id": 730, "uuid": "27013256-8efc-4921-9324-97b36a63b75d", "avatarUrl": "file/staff/avatars/e40bd425-fa98-cd2b-9133-a70a85821cff.jpg", "title": 6, "firstName": "Doctor Test 1", "midName": "", "surname": "NOAH", "mobile": "03349193945", "officeNumber": "", "dob": "1999-07-04T00:00:00Z", "email": "outsource.redimed@infomedtech.com.au", "address": "Address for Doctor account - FDA", "suburb": "SuburbFDA", "postcode": "0407", "state": "South Australia", "country": "Australia", "source": "", "status": false, "account": { "username": "Doctest1", "accountType": 1, "active": true, "createAccount": true, "rolesObject": [{ "key": 342, "label": "Doctor" }, { "key": 343, "label": "All" }] }, "username": "Doctest1", "staffNameObject": { "key": 730, "label": "Doctor Test 1 NOAH" } }, "information": { "id": 40839, "departmentId": 1, "roleType": 1, "registerNumber": "113114115", "signatureUrl": "file/staff/signatures/0148de80-4ff6-acd1-85f7-16e232823b87.png", "stampUrl": "", "HPII": "", "qualification": "12121212", "prescriberNumber": "", "specialtyId": 1, "specialtyName": "Medical Practitioner", "notificationChannels": null, "notificationServices": null, "specialtyObject": { "key": 1, "label": "Medical Practitioner" }, "providerNumbers": [{ "id": 571, "uuid": "dd7822b4-b594-d92b-fe7c-03549823beb1", "companyId": 1004, "companyObject": { "key": 1004, "label": "NOAH" }, "companySiteId": 1004, "companySiteObject": { "key": 1004, "label": "NOAH Site - NOAH" }, "providerNumber": "040404", "specialtyId": 1, "email": "", "companyName": "NOAH", "companySiteName": "NOAH Site", "companySiteAddress": "Add 1", "specialtyName": "Medical Practitioner", "onlineServices": null, "onlineServiceObjects": null }, { "id": 573, "uuid": "9ca8311b-bd38-ac32-e2b7-6b0287f2469e", "companyId": 1004, "companyObject": { "key": 1004, "label": "NOAH" }, "companySiteId": 1005, "companySiteObject": { "key": 1005, "label": "NOAH Site 1 - NOAH" }, "providerNumber": "030303", "specialtyId": 1, "email": "", "companyName": "NOAH", "companySiteName": "NOAH Site 1", "companySiteAddress": "123 Test", "specialtyName": "Medical Practitioner", "onlineServices": null, "onlineServiceObjects": null }, { "id": 613, "uuid": "a9ccc406-02aa-ad06-8529-9451d4a10fbf", "companyId": 4, "companyObject": { "key": 4, "label": "Citic Pacific Mining" }, "companySiteId": 9, "companySiteObject": { "key": 9, "label": "Citic Pacific Mining Site - Citic Pacific Mining" }, "providerNumber": "020202", "specialtyId": 1, "email": "", "companyName": "Citic Pacific Mining", "companySiteName": "Citic Pacific Mining Site", "companySiteAddress": "", "specialtyName": "Medical Practitioner", "onlineServices": null, "onlineServiceObjects": null }, { "id": 616, "uuid": "fb22ce9f-c42d-c30d-97ff-2688a69a1776", "companyId": 1, "companyObject": { "key": 1, "label": "REDIMED" }, "companySiteId": 1, "companySiteObject": { "key": 1, "label": "REDiMED Belmont - REDIMED" }, "providerNumber": "010101", "specialtyId": 1, "email": "", "companyName": "REDIMED", "companySiteName": "REDiMED Belmont", "companySiteAddress": "1 Frederick St", "specialtyName": "Medical Practitioner", "onlineServices": null, "onlineServiceObjects": null }, { "id": 636, "uuid": "d370a647-bf0f-a587-0a0d-7fc5a4f31d9d", "companyId": 1030, "companyObject": { "key": 1030, "label": "AMC360TEST" }, "companySiteId": 1079, "companySiteObject": { "key": 1079, "label": "Armadale Clinic - AMC360TEST" }, "providerNumber": "113114115", "specialtyId": 1, "email": "", "companyName": "AMC360TEST", "companySiteName": "Armadale Clinic", "companySiteAddress": "123 Fake Street", "specialtyName": "Medical Practitioner", "onlineServices": null, "onlineServiceObjects": null }] }, "companies": null };
   }
   else {
     var jsonPatient = document.getElementById("inputDataPatient").value;
-    var jsonObjectBillings = document.getElementById("inputDataBilling").value;
+    var jsonBillings = document.getElementById("inputDataBilling").value;
+    var jsonDoctor = document.getElementById("inputDataDoctor").value;
     jsonObjectPatinet = JSON.parse(jsonPatient);
-    jsonObjectBillings = JSON.parse(jsonObjectBillings);
+    jsonObjectBillings = JSON.parse(jsonBillings);
+    jsonObjectDoctor = JSON.parse(jsonDoctor);
   }
   if (templateTest.checked) {
     parseEFormTemplateData = {
@@ -65,7 +69,9 @@ function getDataSourcesAndMainProgram() {
   }
   jsonObject = JSON.parse(parseEFormTemplateData.EFormTemplateData.TemplateData);
 
-
+  console.log(jsonObjectDoctor);
+  console.log(jsonObjectBillings);
+  console.log(jsonObjectPatinet);
 
 
   {
@@ -100,6 +106,20 @@ function getDataSourcesAndMainProgram() {
       if (month.length < 2) month = '0' + month;
       if (day.length < 2) day = '0' + day;
       return [day, month, year].join('/');
+    }
+
+    //SAVE TO .JSON
+    function download(filename, text) {
+      var element = document.createElement('a');
+      element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+      element.setAttribute('download', filename);
+
+      element.style.display = 'none';
+      document.body.appendChild(element);
+
+      element.click();
+
+      document.body.removeChild(element);
     }
     //--------------------------------------------------------------------------------------------------------------------------
     //MY FUNCTION
@@ -155,7 +175,10 @@ function getDataSourcesAndMainProgram() {
           jsonObjectBillings.pensionExp,
           jsonObjectPatinet.companies.companySiteName,
           jsonObjectPatinet.patient.raceId,
+          jsonObjectDoctor.information.providerNumbers[0].companySiteName,
+          jsonObjectPatinet.companies[0].companySiteName,
 
+          //Doctor
 
         ],
         "name": [
@@ -183,7 +206,7 @@ function getDataSourcesAndMainProgram() {
           //"CONCAT(PatientAppointment.ReferringDoctor)",
           //"CONCAT(PatientAppointment.PrivateHealth)",
           //"CONCAT(PatientAppointment.PensionDetail)",
-          "CONCAT(PatientAppointment.DVANumber",
+          "CONCAT(PatientAppointment.DVANumber)",
           //"PatientAppointment.DVACardColour)", prefillRadio
           "CONCAT(PatientAppointment.AccountType)",
           "CONCAT(PatientAppointment.DVADisability)",
@@ -195,7 +218,8 @@ function getDataSourcesAndMainProgram() {
           //"CONCAT(PatientAppointment.HCCPensionNumber)",
           "CONCAT(CompanySite.ContactName)",
           "CONCAT(PatientAppointment.RaceEthnicityId)",
-
+          "CONCAT(Appointment.SiteName)",
+          "COMBINEFIELDSMARK(Appointment.patientSiteInfo.companySiteName@=)",
 
 
 
@@ -337,6 +361,7 @@ function getDataSourcesAndMainProgram() {
     var checkSections = true;
     var checkRows = true;
     var checkFields = true;
+    var stringTextforDownload;
 
     var grownLoopRadioCheck = 0;
     var grownLoopRadioCheckedorNot = 0;
@@ -411,7 +436,7 @@ function getDataSourcesAndMainProgram() {
                   //---------------------------------------------------------------------------------------------------------------------------------------------                           
                   //---------- when it is inputValue-----------------------
                   checkErrorUndefined(indexSections, indexRows, indexFields);
-                  if (askRecal === undefined || askRecal === "") {
+                  if ((askRecal === undefined || askRecal === "") && (askCalculation === "" || askCalculation === undefined || askCalculation.substr(0, 8) === "REQUIRED")) {
 
                     // create string
                     var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
@@ -454,37 +479,71 @@ function getDataSourcesAndMainProgram() {
                     document.getElementById("inputValue").appendChild(createNodeDivClose);
                     //--------------- PRINT DATA INTO HTML ----------------------
                   }
-
-                  //-----------when it is a preFillValue ---------------------------------
+                  //=================== Textbox Calculation=====================================
                   else {
+                    if (askCalculation.substr(0, 3) === "BMI" || askCalculation.substr(0, 3) === "WHR" || askCalculation.substr(0, 4) === "SUMP" || askCalculation.substr(0, 5) === "EQUAL") {
+                      // create string
+                      var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                      var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                      var expectedValue = askCalculation;
 
-                    // create string
-                    var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
-                    var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
-                    var expectedValue = searchPatientProfile(askRecal);
-                    //--------------- PRINT DATA INTO HTML ----------------------
+                      //--------------- PRINT DATA INTO HTML ----------------------
 
-                    var createNodeDiv1 = document.createElement("div");
-                    var createNodeDiv2 = document.createElement("div");
-                    var createNodeDiv4 = document.createElement("div");
-                    var createNodeDivOpen = document.createElement("div");
-                    var createNodeDivClose = document.createElement("div");
+                      var createNodeDiv1 = document.createElement("div");
+                      var createNodeDiv2 = document.createElement("div");
+                      var createNodeDiv4 = document.createElement("div");
+                      var createNodeDivOpen = document.createElement("div");
+                      var createNodeDivClose = document.createElement("div");
 
-                    createNodeDivOpen.innerHTML = "{";
-                    document.getElementById("preFilledValue").appendChild(createNodeDivOpen);
+                      createNodeDivOpen.innerHTML = "{";
+                      document.getElementById("calculationTextBoxAfterInput").appendChild(createNodeDivOpen);
 
-                    createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
-                    document.getElementById("preFilledValue").appendChild(createNodeDiv1);
+                      createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                      document.getElementById("calculationTextBoxAfterInput").appendChild(createNodeDiv1);
 
-                    createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\",";
-                    document.getElementById("preFilledValue").appendChild(createNodeDiv2);
+                      createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\",";
+                      document.getElementById("calculationTextBoxAfterInput").appendChild(createNodeDiv2);
 
-                    createNodeDiv4.innerHTML = "\"expectedValue\": " + "\"" + expectedValue + "\"";
-                    document.getElementById("preFilledValue").appendChild(createNodeDiv4);
+                      createNodeDiv4.innerHTML = "\"expectedValue\": " + "\"" + expectedValue + "\"";
+                      document.getElementById("calculationTextBoxAfterInput").appendChild(createNodeDiv4);
 
-                    createNodeDivClose.innerHTML = "},";
-                    document.getElementById("preFilledValue").appendChild(createNodeDivClose);
-                    //--------------- PRINT DATA INTO HTML ----------------------    
+                      createNodeDivClose.innerHTML = "},";
+                      document.getElementById("calculationTextBoxAfterInput").appendChild(createNodeDivClose);
+                      //--------------- PRINT DATA INTO HTML ----------------------    
+                    }
+                    //-----------when it is a preFillValue ---------------------------------
+                    else {
+
+                      // create string
+                      var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
+                      var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
+                      var expectedValue = searchPatientProfile(askRecal);
+
+                      //--------------- PRINT DATA INTO HTML ----------------------
+
+                      var createNodeDiv1 = document.createElement("div");
+                      var createNodeDiv2 = document.createElement("div");
+                      var createNodeDiv4 = document.createElement("div");
+                      var createNodeDivOpen = document.createElement("div");
+                      var createNodeDivClose = document.createElement("div");
+
+                      createNodeDivOpen.innerHTML = "{";
+                      document.getElementById("preFilledValue").appendChild(createNodeDivOpen);
+
+                      createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                      document.getElementById("preFilledValue").appendChild(createNodeDiv1);
+
+                      createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "\",";
+                      document.getElementById("preFilledValue").appendChild(createNodeDiv2);
+
+                      createNodeDiv4.innerHTML = "\"expectedValue\": " + "\"" + expectedValue + "\"";
+                      document.getElementById("preFilledValue").appendChild(createNodeDiv4);
+
+                      createNodeDivClose.innerHTML = "},";
+                      document.getElementById("preFilledValue").appendChild(createNodeDivClose);
+                      //--------------- PRINT DATA INTO HTML ----------------------    
+                    }
+
                   }
 
                 }
@@ -869,7 +928,7 @@ function getDataSourcesAndMainProgram() {
     //===============================================================================================================
 
 
-
+    //=============================
 
 
     //--------------------------------- RANDOM SELECT VALUE --------------------------------
@@ -1017,6 +1076,13 @@ function getDataSourcesAndMainProgram() {
           step += 1;
         }
       }
+
+      
+      
+
+
+
+
       document.getElementById("formToast").style.display = "none";
       document.getElementById("showFinal").style.display = "block";
     }
@@ -1059,6 +1125,32 @@ function getDataSourcesAndMainProgram() {
     if (document.getElementById("undefined_field_name").innerText === "") {
       document.getElementById("undefined_field_name").innerHTML = "=> " + "not found" + "<br>";
     }
+    //==================================== CREATE STRING TEXT FOR DOWNLOAD ACTION======
+
+    function createStringTextAll(groupTextNeedGetText) {      
+      var group = document.getElementById(groupTextNeedGetText);
+      var stringGet = "";      
+      while (group.hasChildNodes()) {
+        stringGet = stringGet + group.firstChild.textContent;
+        group.removeChild(group.firstChild);          
+      }
+      if (stringGet === ""){
+        return stringGet;
+      }
+      else {stringGet = stringGet.substr(0, stringGet.length - 1); return stringGet;}
+      
+    }
+
+
+    //=================================== DOWNLOAD ====================================
+
+    document.getElementById("btnDownload").addEventListener("click", function () {
+     
+      // Generate download of hello.txt file with some content
+      var text = "\"preFilledValue\":[" + createStringTextAll("preFilledValue") + "],\"preFilledChecked\":[" + createStringTextAll("preFilledChecked") + "],\"preFilledNotChecked\":[" + createStringTextAll("preFilledNotChecked") + "],\"inputValue\":[" + createStringTextAll("inputValue") + "],\"selectValue\": [" + createStringTextAll("selectValue") + "],\"calculationTextBoxAfterInput\": [" + createStringTextAll("calculationTextBoxAfterInput") + "],\"currentDate\":[" + createStringTextAll("currentDate") + "],\"candidateSignature\":[" + createStringTextAll("candidateSignature") + "],\"reloadDoctorSignature\":[" + createStringTextAll("reloadDoctorSignature") + "],\"isReloadedDoctorSignature\":[" + createStringTextAll("isReloadedDoctorSignature") + "],\"printEform\":[" + createStringTextAll("printEform") + "]}";
+      var filename = jsonObject.eformName + ".json";
+      download(filename, text);
+    }, false);
 
     console.log("DATA SOURCES", jsonObject);
 
@@ -1084,6 +1176,7 @@ function cleanTextHtml() {
     removeAllChild("inputValue");
     removeAllChild("selectValue");
     removeAllChild("currentDate");
+    removeAllChild("calculationTextBoxAfterInput");
     removeAllChild("formToast");
     removeAllChild("candidateSignature");
     removeAllChild("reloadDoctorSignature");

@@ -9,7 +9,7 @@
 </head>
 
 <body style="background-color: black; margin: 50px">
-    <div id="showText" style="font-size: 50px; color: red; text-align: center">FORM GET CODE JSON FROM JSON DATA - V5.1
+    <div id="showText" style="font-size: 50px; color: red; text-align: center">FORM GET CODE JSON FROM JSON DATA - V6.0
     </div>
     <br>
     <br>
@@ -26,24 +26,33 @@
 
     <textarea name="inputData" id="inputData" rows="25"
         style="color: white; background-color: rgb(61, 56, 56); margin-left: 10px; width: 80%; height: 100px; display: block"></textarea>
-    
-    <input type="checkbox" name="automationPatient" id="dataAutomationPatient"><span style="color: rgb(0, 255, 34); font-size: 30px">Check to use Default Patient (MINHNHUTMTP)</span>
-    <input type="checkbox" name="templateTest" id="templateTest"><span style="color: rgb(0, 255, 34); font-size: 30px">Only use for Dev</span>
+
+    <input type="checkbox" name="automationPatient" id="dataAutomationPatient"><span
+        style="color: rgb(0, 255, 34); font-size: 30px">Check to use Default Patient (MINHNHUTMTP)</span>
+    <input type="checkbox" name="templateTest" id="templateTest"><span
+        style="color: rgb(0, 255, 34); font-size: 30px">Only use for Dev</span>
     <p style="font-size: 30px; color: blue">PASTE DATA PATIENT HERE</p>
     <textarea name="inputDataPatient" id="inputDataPatient" rows="25"
         style="color: white; background-color: rgb(97, 88, 88); margin-left: 10px; width: 80%; height: 50px; display: block"></textarea>
 
-        <p style="font-size: 30px; color: blue">PASTE DATA PATIENT BILLING HERE</p>
+    <p style="font-size: 30px; color: blue">PASTE DATA PATIENT BILLING HERE</p>
     <textarea name="inputDataBilling" id="inputDataBilling" rows="25"
         style="color: white; background-color: rgb(97, 88, 88); margin-left: 10px; width: 80%; height: 50px; display: block"></textarea>
 
-        
+    <p style="font-size: 30px; color: blue">PASTE DATA DOCTOR</p>
+    <textarea name="inputDataDoctor" id="inputDataDoctor" rows="25"
+        style="color: white; background-color: rgb(97, 88, 88); margin-left: 10px; width: 80%; height: 50px; display: block"></textarea>
+
+
     <button type="submit" id="btnSubmit"
-        style="margin: 25px; padding: 25px; display: inline ;color: rgb(35, 226, 178) ;font-size: 20px;  border-radius: 25px; margin-left: 100px; background-color: rgb(79, 42, 165)">CLICK
+        style="margin: 25px; padding: 25px; display: inline ;color: rgb(35, 226, 178) ;font-size: 20px;  border-radius: 25px; margin-left: 50px; background-color: rgb(79, 42, 165)">CLICK
         ME TO GET CODE</button>
     <button type="submit" id="btnRemoveCode"
-        style="margin: 25px; padding: 25px; display: inline ;color: rgb(35, 226, 178) ;font-size: 20px;  border-radius: 25px;  margin-left: 100px; background-color: brown">CLICK
+        style="margin: 25px; padding: 25px; display: inline ;color: rgb(35, 226, 178) ;font-size: 20px;  border-radius: 25px;  margin-left: 50px; background-color: brown">CLICK
         ME TO CLEARN CODE</button>
+    <button type="submit" id="btnDownload"
+        style="margin: 25px; padding: 25px; display: inline ;color: rgb(35, 226, 178) ;font-size: 20px; margin-left: 50px; background-color: rgb(8, 124, 61)">CLICK
+        ME TO DOWNLOAD CODE</button>
 
 
     <section id="showFinal">
@@ -78,6 +87,13 @@
             -------------------------------</p>
         <br>
         <section id="selectValue" style="color: rgb(0, 255, 191)"></section>
+        <br>
+
+        <p style="color: white">-----------------------------------------------------CODE FOR
+            calculationTextBoxAfterInput
+            -------------------------------</p>
+        <br>
+        <section id="calculationTextBoxAfterInput" style="color: rgb(195, 0, 255)"></section>
         <br>
 
         <p style="color: white">-----------------------------------------------------CODE FOR candidateSignature

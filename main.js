@@ -11,9 +11,9 @@ function getDataSourcesAndMainProgram() {
   var jsonObjectBillings;
   var parseEFormTemplateData;
   var jsonObject;
-  if (usePatient.checked){
-    jsonObjectPatinet = {"patient":{"id":43295,"uuid":"38e5af2d-ed10-454f-91dc-308dc3881305","title":2,"gender":2,"raceId":3,"firstName":"test001","midName":null,"surname":"MINHNHUTMTP","fullName":"","dob":"2019-07-23T00:00:00Z","avatar":null,"avatarRekognition":null,"occupation":"boss"},"contact":{"id":66564,"patientId":43295,"email":"leminhnhutdhct@gmail.com","phoneHome":"456","phoneMobile":"040123","phoneWork":"123","address":"Tan Hanh Dai Phuc Cang Long Tra Vinh","poBoxNo":"PO POX OR","isSendMail":false,"suburb":"quan Cam","postcode":"1234","state":"TORRES STRAIT ISLANDER","country":"Viet Nam"},"billing":null,"companies":[{"patientId":43295,"companyId":1013,"companyName":"Citic Pacific Mining","companySiteId":1043,"companySiteName":"Sino Iron - INJURY","currentCompany":true},{"patientId":43295,"companyId":1,"companyName":"REDIMED","companySiteId":1,"companySiteName":"REDiMED Belmont","currentCompany":false}],"hasConsultation":false,"account":{"id":0,"patientID":0,"parentID":null,"email":"","phoneMobile":""},"nextOfKin":"PatientPEM AUTOMATION","isTest":false};
-    jsonObjectBillings = {"id":422,"patientId":43295,"medicareNumber":"9090","medicareRefNumber":"1","medicareExp":"2019-11-28T00:00:00Z","privateHealthFundId":1035,"privateHealthFundObject":{"key":1035,"label":"Automation UPDATED - Private Health Fund"},"privateHealthFundRefNumber":"101199","membershipNumber":"ok. i dont know","dvaNumber":"Tau anh qua nui","dvaDisability":"DVA Disability","cardColor":1,"pensionNumber":"0967702162","pensionExp":"2008-02-28T00:00:00Z","billingTypeId":4,"accountHolderTypeId":3,"accountHolderRefId":1};
+  if (usePatient.checked) {
+    jsonObjectPatinet = { "patient": { "id": 43295, "uuid": "38e5af2d-ed10-454f-91dc-308dc3881305", "title": 2, "gender": 2, "raceId": 3, "firstName": "test001", "midName": null, "surname": "MINHNHUTMTP", "fullName": "", "dob": "2019-07-23T00:00:00Z", "avatar": null, "avatarRekognition": null, "occupation": "boss" }, "contact": { "id": 66564, "patientId": 43295, "email": "leminhnhutdhct@gmail.com", "phoneHome": "456", "phoneMobile": "040123", "phoneWork": "123", "address": "Tan Hanh Dai Phuc Cang Long Tra Vinh", "poBoxNo": "PO POX OR", "isSendMail": false, "suburb": "quan Cam", "postcode": "1234", "state": "TORRES STRAIT ISLANDER", "country": "Viet Nam" }, "billing": null, "companies": [{ "patientId": 43295, "companyId": 1013, "companyName": "Citic Pacific Mining", "companySiteId": 1043, "companySiteName": "Sino Iron - INJURY", "currentCompany": true }, { "patientId": 43295, "companyId": 1, "companyName": "REDIMED", "companySiteId": 1, "companySiteName": "REDiMED Belmont", "currentCompany": false }], "hasConsultation": false, "account": { "id": 0, "patientID": 0, "parentID": null, "email": "", "phoneMobile": "" }, "nextOfKin": "PatientPEM AUTOMATION", "isTest": false };
+    jsonObjectBillings = { "id": 422, "patientId": 43295, "medicareNumber": "9090", "medicareRefNumber": "1", "medicareExp": "2019-11-28T00:00:00Z", "privateHealthFundId": 1035, "privateHealthFundObject": { "key": 1035, "label": "Automation UPDATED - Private Health Fund" }, "privateHealthFundRefNumber": "101199", "membershipNumber": "ok. i dont know", "dvaNumber": "Tau anh qua nui", "dvaDisability": "DVA Disability", "cardColor": 1, "pensionNumber": "0967702162", "pensionExp": "2008-02-28T00:00:00Z", "billingTypeId": 4, "accountHolderTypeId": 3, "accountHolderRefId": 1 };
   }
   else {
     var jsonPatient = document.getElementById("inputDataPatient").value;
@@ -21,7 +21,7 @@ function getDataSourcesAndMainProgram() {
     jsonObjectPatinet = JSON.parse(jsonPatient);
     jsonObjectBillings = JSON.parse(jsonObjectBillings);
   }
-  if (templateTest.checked){
+  if (templateTest.checked) {
     parseEFormTemplateData = {
       "ID": 351,
       "UID": "5cedfdae-cb6d-49fb-b973-4cb27b12e6ab",
@@ -57,14 +57,14 @@ function getDataSourcesAndMainProgram() {
       "EFormGroups": null,
       "envLinkUID": 351,
       "UUIDNewFileName": ""
-    };    
+    };
   }
-  else{
+  else {
     var jsonSources = document.getElementById("inputData").value;
-    parseEFormTemplateData = JSON.parse(jsonSources);    
+    parseEFormTemplateData = JSON.parse(jsonSources);
   }
   jsonObject = JSON.parse(parseEFormTemplateData.EFormTemplateData.TemplateData);
-  
+
 
 
 
@@ -155,7 +155,7 @@ function getDataSourcesAndMainProgram() {
           jsonObjectBillings.pensionExp,
           jsonObjectPatinet.companies.companySiteName,
           jsonObjectPatinet.patient.raceId,
-          
+
 
         ],
         "name": [
@@ -195,10 +195,10 @@ function getDataSourcesAndMainProgram() {
           //"CONCAT(PatientAppointment.HCCPensionNumber)",
           "CONCAT(CompanySite.ContactName)",
           "CONCAT(PatientAppointment.RaceEthnicityId)",
-          
-          
-          
-          
+
+
+
+
           //Doctor
           "CONCAT(Doctor.Doctor.FirstName",
           "Doctor.Doctor.LastName)",
@@ -293,7 +293,7 @@ function getDataSourcesAndMainProgram() {
           }
           //case raceID
           if (dataFunction.name[i] === "CONCAT(PatientAppointment.RaceEthnicityId)") {
-            haveCase = true;            
+            haveCase = true;
             switch (dataFunction.dir[i]) {
               case 1:
                 return "Non-Aboriginal";
@@ -302,7 +302,7 @@ function getDataSourcesAndMainProgram() {
               case 3:
                 return "Torres Strait Islander";
               case 4:
-                return "Aboriginal and Torres Strait Islander";              
+                return "Aboriginal and Torres Strait Islander";
               default: return undefined;
             }
           }
@@ -318,7 +318,7 @@ function getDataSourcesAndMainProgram() {
       }
 
     }
-   
+
 
 
 
@@ -540,7 +540,7 @@ function getDataSourcesAndMainProgram() {
                     var expectedValue = searchPatientProfile(askRecal);
 
                     //========== check askPrecall is Todayshort??================
-                    if (askRecal === "DEFAULT(TODAYSHORT)") {
+                    if (askRecal === "DEFAULT(TODAYSHORT)" || askRecal === "CONCAT(Appointment.FromTime)") {
                       //--------------- PRINT DATA INTO HTML ----------------------
 
                       var createNodeDiv1 = document.createElement("div");

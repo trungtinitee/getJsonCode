@@ -1037,12 +1037,8 @@ function getDataSourcesAndMainProgram() {
 
       }
     }
-    if (checkHaveToast) {
-      document.getElementById("formToast").style.display = "block";
-    }
-    else {
-      document.getElementById("showFinal").style.display = "block";
-    }
+    
+    document.getElementById("formToast").style.display = "block";
 
 
     function closeFormToast() {

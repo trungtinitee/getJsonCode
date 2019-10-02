@@ -168,8 +168,8 @@ function getDataSourcesAndMainProgram() {
           jsonObjectBillings.medicareRefNumber,
           jsonObjectBillings.dvaNumber,
           jsonObjectBillings.billingTypeId,
-          jsonObjectBillings.dvaDisability,
-          jsonObjectBillings.medicareRefNumber,
+          jsonObjectBillings.dvaDisability,          
+          jsonObjectBillings.membershipNumber,
           jsonObjectBillings.privateHealthFundRefNumber,
           jsonObjectBillings.pensionNumber,
           jsonObjectBillings.pensionExp,
@@ -521,7 +521,7 @@ function getDataSourcesAndMainProgram() {
                       var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
                       var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
                       var expectedValue = searchPatientProfile(askRecal);
-                      console.log(searchPatientProfile(askRecal));
+                     
                       //--------------- PRINT DATA INTO HTML ----------------------
 
                       var createNodeDiv1 = document.createElement("div");
@@ -862,6 +862,26 @@ function getDataSourcesAndMainProgram() {
                     createNodeDivClose.innerHTML = "},";
                     document.getElementById("candidateSignature").appendChild(createNodeDivClose);
                     //--------------- PRINT DATA INTO HTML ----------------------
+                  //======================== reset candidate signature ================
+
+                  //============================resetCandidateSignature================================
+                  var createNodeDiv1 = document.createElement("div");
+                  var createNodeDiv2 = document.createElement("div");
+                  var createNodeDivOpen = document.createElement("div");
+                  var createNodeDivClose = document.createElement("div");
+
+                  createNodeDivOpen.innerHTML = "{";
+                  document.getElementById("reloadDoctorSignature").appendChild(createNodeDivOpen);
+
+                  createNodeDiv1.innerHTML = "\"fieldName\": " + "\"" + fieldName + "\",";
+                  document.getElementById("reloadDoctorSignature").appendChild(createNodeDiv1);
+
+                  createNodeDiv2.innerHTML = "\"ID\": " + "\"" + ID + "_button_reset" + "\"";
+                  document.getElementById("reloadDoctorSignature").appendChild(createNodeDiv2);
+
+                  createNodeDivClose.innerHTML = "},";
+                  document.getElementById("reloadDoctorSignature").appendChild(createNodeDivClose);
+                  
                   }
                   //--------------------------------- doctor Image Signature----------------------------------
                   if (getTypeField === doctorImageSignature) {
@@ -985,9 +1005,10 @@ function getDataSourcesAndMainProgram() {
       }
 
     }
+  
 
     //====================== GET RADIO OR CHECK IS CHECKED OR NOT===============================
-
+    
 
 
     for (var i = 0; i < groupRadioCheckedorNot.length; i++) {
@@ -1079,13 +1100,6 @@ function getDataSourcesAndMainProgram() {
           step += 1;
         }
       }
-
-
-
-
-
-
-
       document.getElementById("formToast").style.display = "none";
       document.getElementById("showFinal").style.display = "block";
     }
@@ -1149,12 +1163,30 @@ function getDataSourcesAndMainProgram() {
 
     document.getElementById("btnDownload").addEventListener("click", function () {
       //get some info from user
-      var consultationPatient = prompt("consultationURL:", "https://test.redisys.com.au/consultation/55945/patients/43295/eform?consultationId=54818&appointmentUuid=63df330b-aee2-4796-8cac-0a0cacec09a3");
+      var consultationPatient;
+      var groupEform;
+      var nameEform;
+      if (document.getElementById("consultationPatient").value === ""){
+        consultationPatient = "https://test.redisys.com.au/consultation/55945/patients/43295/eform?consultationId=54818&appointmentUuid=63df330b-aee2-4796-8cac-0a0cacec09a3";
+      }
+      else{
+        consultationPatient = document.getElementById("consultationPatient").value;
+      }
+      if (document.getElementById("groupEform").value === ""){
+        groupEform = "PEM";
+      }
+      else{
+        groupEform = document.getElementById("groupEform").value;
+      }
+      if (document.getElementById("nameEform").value === ""){
+        nameEform = "Medical Assessment";
+      }
+      else{
+        nameEform = document.getElementById("nameEform").value;
+      }
+   
       var accountName = prompt("accountName:", "Doctest1");
-      var password = prompt("password:", "P@ssword123");
-      var groupEform = prompt("group", "PEM");
-      var nameEform = prompt("name:", "Functional Assessment");
-
+      var password = prompt("password:", "P@ssword123");  
 
       // Generate download of hello.txt file with some content
       var text = "{\"consultationURL\":\"" + consultationPatient + "\",\"accountName\":\"" + accountName + "\",\"password\":\"" + password + "\",\"group\":\"" + groupEform + "\",\"name\":\"" + nameEform + "\",\"preFilledValue\":[" + createStringTextAll("preFilledValue") + "],\"preFilledChecked\":[" + createStringTextAll("preFilledChecked") + "],\"preFilledNotChecked\":[" + createStringTextAll("preFilledNotChecked") + "],\"inputValue\":[" + createStringTextAll("inputValue") + "],\"selectValue\": [" + createStringTextAll("selectValue") + "],\"calculationTextBoxAfterInput\": [" + createStringTextAll("calculationTextBoxAfterInput") + "],\"currentDate\":[" + createStringTextAll("currentDate") + "],\"candidateSignature\":[" + createStringTextAll("candidateSignature") + "],\"reloadDoctorSignature\":[" + createStringTextAll("reloadDoctorSignature") + "],\"isReloadedDoctorSignature\":[" + createStringTextAll("isReloadedDoctorSignature") + "],\"printEform\":[" + createStringTextAll("printEform") + "]}";
@@ -1205,8 +1237,14 @@ function cleanTextHtml() {
     document.getElementById("undefined_field_name").innerHTML = "";
     document.getElementById("inputData").value = "";
     document.getElementById("formToast").innerHTML = "<p style=\"text-align: center; color: red; font-size: 25\"><u>MORE INFOMATION FOR CODE</u></p>";
+
+    var inputHeadInforJson = document.createElement("div");
+    inputHeadInforJson.innerHTML = "<p>consultationPatient:</p><input type=\"text\" name=\"consultationPatient\" id=\"consultationPatient\" style=\"width: 50%; height: 35px\"><p>groupEform:</p><input type=\"text\" name=\"groupEform\"id=\"groupEform\" style=\"width: 50%; height: 35px\"><p>nameEform:</p><input type=\"text\" name=\"nameEform\" id=\"nameEform\" style=\"width: 50%; height: 35px\">";
+    document.getElementById("formToast").appendChild(inputHeadInforJson);
+
+
     var btnAplly = document.createElement("div");
-    btnAplly.innerHTML = "<button type=\"submit\" id=\"btnSubmitToast\">APLLY DATA INFO</button>";
+    btnAplly.innerHTML = "<button type=\"submit\" id=\"btnSubmitToast\">APLLY DATA INFO</button>";    
     document.getElementById("formToast").appendChild(btnAplly);
     document.getElementById("showFinal").style.display = "none";
   }

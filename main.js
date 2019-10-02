@@ -1186,7 +1186,7 @@ function getDataSourcesAndMainProgram() {
       }
    
       var accountName = prompt("accountName:", "Doctest1");
-      var password = prompt("password:", "P@ssword123");  
+      var password = prompt("password:", "P@ssword12345");  
 
       // Generate download of hello.txt file with some content
       var text = "{\"consultationURL\":\"" + consultationPatient + "\",\"accountName\":\"" + accountName + "\",\"password\":\"" + password + "\",\"group\":\"" + groupEform + "\",\"name\":\"" + nameEform + "\",\"preFilledValue\":[" + createStringTextAll("preFilledValue") + "],\"preFilledChecked\":[" + createStringTextAll("preFilledChecked") + "],\"preFilledNotChecked\":[" + createStringTextAll("preFilledNotChecked") + "],\"inputValue\":[" + createStringTextAll("inputValue") + "],\"selectValue\": [" + createStringTextAll("selectValue") + "],\"calculationTextBoxAfterInput\": [" + createStringTextAll("calculationTextBoxAfterInput") + "],\"currentDate\":[" + createStringTextAll("currentDate") + "],\"candidateSignature\":[" + createStringTextAll("candidateSignature") + "],\"reloadDoctorSignature\":[" + createStringTextAll("reloadDoctorSignature") + "],\"isReloadedDoctorSignature\":[" + createStringTextAll("isReloadedDoctorSignature") + "],\"printEform\":[" + createStringTextAll("printEform") + "]}";

@@ -1146,7 +1146,7 @@ function getDataSourcesAndMainProgram() {
 
     document.getElementById("btnDownload").addEventListener("click", function () {
       //get some info from user
-      var consultationPatient = prompt("consultationURL:","https://test.redisys.com.au/consultation/56482/patients/43628?consultationId=55120&appointmentUuid=2e2313b4-901a-4fc5-886c-27aa94ab501d");
+      var consultationPatient = prompt("consultationURL:","https://test.redisys.com.au/consultation/55945/patients/43295/eform?consultationId=54818&appointmentUuid=63df330b-aee2-4796-8cac-0a0cacec09a3");
       var accountName = prompt("accountName:", "Doctest1");
       var password = prompt("password:", "P@ssword123");
       var groupEform = prompt("group","PEM");

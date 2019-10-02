@@ -427,7 +427,9 @@ function getDataSourcesAndMainProgram() {
                 var askRecal = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].preCal;
                 var askCalculation = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].cal;
                 var checkMaxLength = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].maxlength;
-
+                if (askCalculation === undefined){
+                  askCalculation = "";
+                }
                 //-------------------------------- CHECK UNDEFINED FOR FIELDS NAME---------------------------------------
 
 
@@ -436,7 +438,7 @@ function getDataSourcesAndMainProgram() {
                   //---------------------------------------------------------------------------------------------------------------------------------------------                           
                   //---------- when it is inputValue-----------------------
                   checkErrorUndefined(indexSections, indexRows, indexFields);
-                  if ((askRecal === undefined || askRecal === "") && (askCalculation === "" || askCalculation === undefined || askCalculation.substr(0, 8) === "REQUIRED")) {
+                  if ((askRecal === undefined || askRecal === "") && (askCalculation === "" || askCalculation.substr(0, 8) === "REQUIRED")) {
 
                     // create string
                     var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;

@@ -177,6 +177,7 @@ function getDataSourcesAndMainProgram() {
           jsonObjectPatinet.patient.raceId,
           jsonObjectDoctor.information.providerNumbers[0].companySiteName,
           jsonObjectPatinet.companies[0].companySiteName,
+          jsonObjectPatinet.companies[0].companySiteName,
 
           //Doctor
 
@@ -220,7 +221,7 @@ function getDataSourcesAndMainProgram() {
           "CONCAT(PatientAppointment.RaceEthnicityId)",
           "CONCAT(Appointment.SiteName)",
           "COMBINEFIELDSMARK(Appointment.patientSiteInfo.companySiteName@=)",
-
+          "COMBINEFIELDSMARK(Appointment.patientSiteInfo.companySiteName@ =)",
 
 
           //Doctor
@@ -427,7 +428,7 @@ function getDataSourcesAndMainProgram() {
                 var askRecal = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].preCal;
                 var askCalculation = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].cal;
                 var checkMaxLength = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].maxlength;
-                if (askCalculation === undefined){
+                if (askCalculation === undefined) {
                   askCalculation = ""; //reset all calculation to ""
                 }
                 //-------------------------------- CHECK UNDEFINED FOR FIELDS NAME---------------------------------------
@@ -483,7 +484,7 @@ function getDataSourcesAndMainProgram() {
                   }
                   //=================== Textbox Calculation=====================================
                   else {
-                    if (askCalculation.substr(0, 3) === "BMI" || askCalculation.substr(0, 3) === "WHR" || askCalculation.substr(0, 4) === "SUMP" || askCalculation.substr(0, 5) === "EQUAL") {                     
+                    if (askCalculation.substr(0, 3) === "BMI" || askCalculation.substr(0, 3) === "WHR" || askCalculation.substr(0, 4) === "SUMP" || askCalculation.substr(0, 5) === "EQUAL") {
                       // create string
                       var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
                       var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
@@ -520,7 +521,7 @@ function getDataSourcesAndMainProgram() {
                       var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
                       var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
                       var expectedValue = searchPatientProfile(askRecal);
-
+                      console.log(searchPatientProfile(askRecal));
                       //--------------- PRINT DATA INTO HTML ----------------------
 
                       var createNodeDiv1 = document.createElement("div");
@@ -1079,8 +1080,8 @@ function getDataSourcesAndMainProgram() {
         }
       }
 
-      
-      
+
+
 
 
 
@@ -1129,18 +1130,18 @@ function getDataSourcesAndMainProgram() {
     }
     //==================================== CREATE STRING TEXT FOR DOWNLOAD ACTION======
 
-    function createStringTextAll(groupTextNeedGetText) {      
+    function createStringTextAll(groupTextNeedGetText) {
       var group = document.getElementById(groupTextNeedGetText);
-      var stringGet = "";      
+      var stringGet = "";
       while (group.hasChildNodes()) {
         stringGet = stringGet + group.firstChild.textContent;
-        group.removeChild(group.firstChild);          
+        group.removeChild(group.firstChild);
       }
-      if (stringGet === ""){
+      if (stringGet === "") {
         return stringGet;
       }
-      else {stringGet = stringGet.substr(0, stringGet.length - 1); return stringGet;}
-      
+      else { stringGet = stringGet.substr(0, stringGet.length - 1); return stringGet; }
+
     }
 
 
@@ -1148,12 +1149,12 @@ function getDataSourcesAndMainProgram() {
 
     document.getElementById("btnDownload").addEventListener("click", function () {
       //get some info from user
-      var consultationPatient = prompt("consultationURL:","https://test.redisys.com.au/consultation/55945/patients/43295/eform?consultationId=54818&appointmentUuid=63df330b-aee2-4796-8cac-0a0cacec09a3");
+      var consultationPatient = prompt("consultationURL:", "https://test.redisys.com.au/consultation/55945/patients/43295/eform?consultationId=54818&appointmentUuid=63df330b-aee2-4796-8cac-0a0cacec09a3");
       var accountName = prompt("accountName:", "Doctest1");
       var password = prompt("password:", "P@ssword123");
-      var groupEform = prompt("group","PEM");
+      var groupEform = prompt("group", "PEM");
       var nameEform = prompt("name:", "Functional Assessment");
-      
+
 
       // Generate download of hello.txt file with some content
       var text = "{\"consultationURL\":\"" + consultationPatient + "\",\"accountName\":\"" + accountName + "\",\"password\":\"" + password + "\",\"group\":\"" + groupEform + "\",\"name\":\"" + nameEform + "\",\"preFilledValue\":[" + createStringTextAll("preFilledValue") + "],\"preFilledChecked\":[" + createStringTextAll("preFilledChecked") + "],\"preFilledNotChecked\":[" + createStringTextAll("preFilledNotChecked") + "],\"inputValue\":[" + createStringTextAll("inputValue") + "],\"selectValue\": [" + createStringTextAll("selectValue") + "],\"calculationTextBoxAfterInput\": [" + createStringTextAll("calculationTextBoxAfterInput") + "],\"currentDate\":[" + createStringTextAll("currentDate") + "],\"candidateSignature\":[" + createStringTextAll("candidateSignature") + "],\"reloadDoctorSignature\":[" + createStringTextAll("reloadDoctorSignature") + "],\"isReloadedDoctorSignature\":[" + createStringTextAll("isReloadedDoctorSignature") + "],\"printEform\":[" + createStringTextAll("printEform") + "]}";

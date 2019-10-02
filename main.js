@@ -1145,9 +1145,17 @@ function getDataSourcesAndMainProgram() {
     //=================================== DOWNLOAD ====================================
 
     document.getElementById("btnDownload").addEventListener("click", function () {
-     
+      //get some info from user
+      var consultationPatient = prompt("consultationURL:","https://test.redisys.com.au/consultation/56482/patients/43628?consultationId=55120&appointmentUuid=2e2313b4-901a-4fc5-886c-27aa94ab501d");
+      var accountName = prompt("accountName:", "Doctest1");
+      var password = prompt("password:", "P@ssword123");
+      var groupEform = prompt("group","PEM");
+      var nameEform = prompt("name:", "Functional Assessment");
+      
+
       // Generate download of hello.txt file with some content
-      var text = "\"preFilledValue\":[" + createStringTextAll("preFilledValue") + "],\"preFilledChecked\":[" + createStringTextAll("preFilledChecked") + "],\"preFilledNotChecked\":[" + createStringTextAll("preFilledNotChecked") + "],\"inputValue\":[" + createStringTextAll("inputValue") + "],\"selectValue\": [" + createStringTextAll("selectValue") + "],\"calculationTextBoxAfterInput\": [" + createStringTextAll("calculationTextBoxAfterInput") + "],\"currentDate\":[" + createStringTextAll("currentDate") + "],\"candidateSignature\":[" + createStringTextAll("candidateSignature") + "],\"reloadDoctorSignature\":[" + createStringTextAll("reloadDoctorSignature") + "],\"isReloadedDoctorSignature\":[" + createStringTextAll("isReloadedDoctorSignature") + "],\"printEform\":[" + createStringTextAll("printEform") + "]}";
+      var text = "{\"consultationURL\":\"" + consultationPatient + "\",\"accountName\":\"" + accountName + "\",\"password\":\"" + password + "\",\"group\":\"" + groupEform + "\",\"name\":\"" + nameEform + "\",\"preFilledValue\":[" + createStringTextAll("preFilledValue") + "],\"preFilledChecked\":[" + createStringTextAll("preFilledChecked") + "],\"preFilledNotChecked\":[" + createStringTextAll("preFilledNotChecked") + "],\"inputValue\":[" + createStringTextAll("inputValue") + "],\"selectValue\": [" + createStringTextAll("selectValue") + "],\"calculationTextBoxAfterInput\": [" + createStringTextAll("calculationTextBoxAfterInput") + "],\"currentDate\":[" + createStringTextAll("currentDate") + "],\"candidateSignature\":[" + createStringTextAll("candidateSignature") + "],\"reloadDoctorSignature\":[" + createStringTextAll("reloadDoctorSignature") + "],\"isReloadedDoctorSignature\":[" + createStringTextAll("isReloadedDoctorSignature") + "],\"printEform\":[" + createStringTextAll("printEform") + "]}";
+      console.log(text);
       var filename = jsonObject.eformName + ".json";
       download(filename, text);
     }, false);

@@ -1037,12 +1037,12 @@ function getDataSourcesAndMainProgram() {
 
       }
     }
-    if (checkHaveToast === true || checkHaveToast === false) {
+    //if (checkHaveToast === true || checkHaveToast === false) {
       document.getElementById("formToast").style.display = "block";
-    }
-    else {
-      document.getElementById("showFinal").style.display = "block";
-    }
+    //}
+    //else {
+     // document.getElementById("showFinal").style.display = "block";
+    //}
 
 
     function closeFormToast() {

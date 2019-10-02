@@ -428,7 +428,7 @@ function getDataSourcesAndMainProgram() {
                 var askCalculation = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].cal;
                 var checkMaxLength = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].maxlength;
                 if (askCalculation === undefined){
-                  askCalculation = "";
+                  askCalculation = ""; //reset all calculation to ""
                 }
                 //-------------------------------- CHECK UNDEFINED FOR FIELDS NAME---------------------------------------
 
@@ -483,8 +483,7 @@ function getDataSourcesAndMainProgram() {
                   }
                   //=================== Textbox Calculation=====================================
                   else {
-                    if (askCalculation.substr(0, 3) === "BMI" || askCalculation.substr(0, 3) === "WHR" || askCalculation.substr(0, 4) === "SUMP" || askCalculation.substr(0, 5) === "EQUAL") {
-                     
+                    if (askCalculation.substr(0, 3) === "BMI" || askCalculation.substr(0, 3) === "WHR" || askCalculation.substr(0, 4) === "SUMP" || askCalculation.substr(0, 5) === "EQUAL") {                     
                       // create string
                       var fieldName = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].name;
                       var ID = jsonObject.sections[indexSections].rows[indexRows].fields[indexFields].ref;
